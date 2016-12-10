@@ -17,12 +17,19 @@ class Room {
         tiles[i].add(null);
       }
     }
-    tiles[5][3] = new TileBookshelve(5, 3);
+    tiles[2][0] = new TileDoor(2, 0);
     TileGroup bed = new TileGroup();
     tiles[1][1] = new TileBed(1, 1, bed, 1);
     tiles[1][2] = new TileBed(1, 2, bed, 2);
+    TileGroup desk = new TileGroup();
+    tiles[4][1] = new TileDesk(4, 1, desk, 1);
+    tiles[4][2] = new TileBed(4, 2, desk, 2);
     tiles[5][1] = new TileDish(5, 1);
+    //tiles[5][2] = new TileWeed(5, 2);
     tiles[6][2] = new TileToilet(6, 2);
+    //tiles[0][3] = new TileSocket(0, 3);
+    tiles[1][3] = new TileChair(1, 3);
+    tiles[5][3] = new TileBookshelve(5, 3);
     highlightX = 0;
     highlightY = 0;
   }
