@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg6198"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="simpleWall.svg">
+  <defs
+     id="defs6200">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6752"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-2"
+       is_visible="true" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="132.57833"
+     inkscape:cy="962.62384"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="657"
+     inkscape:window-x="-8"
+     inkscape:window-y="1192"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid6746" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata6203">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#808080;fill-opacity:0;stroke:#767676;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+       id="rect6748"
+       width="100"
+       height="100"
+       x="100"
+       y="52.362206"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallSimple.png"
+       inkscape:export-xdpi="85.714287"
+       inkscape:export-ydpi="85.714287" />
+    <rect
+       style="fill:#767676;fill-opacity:1;stroke:#767676;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6782"
+       width="100"
+       height="50"
+       x="100"
+       y="102.36221"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallSimple.png"
+       inkscape:export-xdpi="85.714287"
+       inkscape:export-ydpi="85.714287" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 97.5,102.3622 105.00001,0"
+       id="path6760"
+       inkscape:path-effect="#path-effect6762"
+       inkscape:original-d="m 97.5,102.3622 105.00001,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallSimple.png"
+       inkscape:export-xdpi="85.714287"
+       inkscape:export-ydpi="85.714287" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 97.5,152.34837 105.00001,0"
+       id="path6760-1"
+       inkscape:path-effect="#path-effect6762-2"
+       inkscape:original-d="m 97.5,152.34837 105.00001,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallSimple.png"
+       inkscape:export-xdpi="85.714287"
+       inkscape:export-ydpi="85.714287" />
+  </g>
+</svg>
