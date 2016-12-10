@@ -23,6 +23,26 @@
      id="defs6200">
     <inkscape:path-effect
        effect="spiro"
+       id="path-effect4826"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4748"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4744"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4643"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4235"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
        id="path-effect4420"
        is_visible="true" />
     <inkscape:path-effect
@@ -129,6 +149,142 @@
        effect="spiro"
        id="path-effect4355-5"
        is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-2-3-4"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-5-1"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-5-16"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-2-3-41"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-5-0"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-5-0-5"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-5-0-5-3"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-5-0-5-8"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4309-9-4"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-5-0-5-3-7"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-2-3-413"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-5-12"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-2-2-1"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-2-9"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-6"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4230-9-7"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4204-7-4"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-2-3-5"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-5-4"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-2-3-5-7"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-2-3-5-7-5"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-2-3-5-7-5-1"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-2-3-5-7-2"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-5-4-0"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4748-5"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-5-4-0-6"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-2-3-5-7-5-1-0"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-2-3-5-7-2-7"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-2-3-5-7-5-2"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-2-3-5-7-54"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-5-4-8"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-5-16-8"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-5-16-7"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-5-4-06"
+       is_visible="true" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -137,16 +293,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2"
-     inkscape:cx="288.70934"
-     inkscape:cy="801.49025"
+     inkscape:zoom="0.5"
+     inkscape:cx="436.53164"
+     inkscape:cy="780.36943"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:window-width="1280"
      inkscape:window-height="657"
-     inkscape:window-x="-8"
-     inkscape:window-y="1192"
+     inkscape:window-x="1432"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
@@ -169,206 +325,177 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:5.00000048;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect6748"
-       width="30.233448"
-       height="100"
-       x="134.8871"
-       y="-152.36221"
-       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallToToilet.png"
-       inkscape:export-xdpi="85.714287"
-       inkscape:export-ydpi="85.714287"
-       transform="scale(1,-1)" />
-    <rect
-       style="fill:#666666;fill-opacity:1;stroke:#666666;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4141"
-       width="29.893631"
-       height="100"
-       x="100"
-       y="52.362206"
-       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallToToilet.png"
-       inkscape:export-xdpi="85.714287"
-       inkscape:export-ydpi="85.714287" />
-    <rect
        style="fill:#666666;fill-opacity:1;stroke:#666666;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4141-4"
-       width="29.893631"
-       height="100"
-       x="170.10263"
-       y="52.35722"
-       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallToToilet.png"
-       inkscape:export-xdpi="85.714287"
-       inkscape:export-ydpi="85.714287" />
+       width="30.000002"
+       height="95.000008"
+       x="137"
+       y="56.112209"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallToToilet_left.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        style="fill:#666666;fill-opacity:1;stroke:#666666;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect6782"
-       width="100"
-       height="45.050251"
-       x="100"
-       y="-97.412468"
-       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallToToilet.png"
-       inkscape:export-xdpi="85.714287"
-       inkscape:export-ydpi="85.714287"
+       width="95.000023"
+       height="44.999996"
+       x="72"
+       y="-103.61221"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallToToilet_left.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
        transform="scale(1,-1)" />
     <path
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 132.51518,102.27384 35.08081,0"
+       d="m 69.499996,103.6122 67.499994,0"
        id="path6760"
        inkscape:path-effect="#path-effect6762"
-       inkscape:original-d="m 132.51518,102.27384 35.08081,0"
+       inkscape:original-d="m 69.499996,103.6122 67.499994,0"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallToToilet.png"
-       inkscape:export-xdpi="85.714287"
-       inkscape:export-ydpi="85.714287" />
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallToToilet_left.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:5.00000095;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6748"
+       width="62.500004"
+       height="45"
+       x="72.000008"
+       y="-151.1122"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallToToilet_left.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="scale(1,-1)" />
     <path
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 97.49999,52.376056 105.00002,0"
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 69.5,56.112207 100.00001,0"
        id="path6760-1"
        inkscape:path-effect="#path-effect6762-2"
-       inkscape:original-d="m 97.49999,52.376056 105.00002,0"
+       inkscape:original-d="m 69.5,56.112207 100.00001,0"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallToToilet.png"
-       inkscape:export-xdpi="85.714287"
-       inkscape:export-ydpi="85.714287" />
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallToToilet_left.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 97.491428,152.33655 105.000022,0"
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 69.5,151.1122 100.00001,0"
        id="path6760-1-5"
        inkscape:path-effect="#path-effect6762-2-2"
-       inkscape:original-d="m 97.491428,152.33655 105.000022,0"
+       inkscape:original-d="m 69.5,151.1122 100.00001,0"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallToToilet.png"
-       inkscape:export-xdpi="85.714287"
-       inkscape:export-ydpi="85.714287" />
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallToToilet_left.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
-       style="fill:#767676;fill-opacity:1;stroke:#767676;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#666666;fill-opacity:1;stroke:#666666;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4250"
-       width="100"
-       height="7.0625067"
-       x="262.42639"
-       y="146.61337"
+       width="95"
+       height="5"
+       x="202.5"
+       y="144.8622"
        inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
        inkscape:export-xdpi="85.714287"
        inkscape:export-ydpi="85.714287" />
     <rect
-       style="fill:#767676;fill-opacity:1;stroke:#767676;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4254"
-       width="10"
-       height="100"
-       x="352.42639"
-       y="53.675888"
-       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
-       inkscape:export-xdpi="85.714287"
-       inkscape:export-ydpi="85.714287" />
-    <rect
-       style="fill:#767676;fill-opacity:1;stroke:#767676;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#666666;fill-opacity:1;stroke:#666666;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4252"
        width="10"
-       height="100"
-       x="262.42639"
-       y="53.675888"
+       height="95"
+       x="202.5"
+       y="54.862206"
        inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
        inkscape:export-xdpi="85.714287"
        inkscape:export-ydpi="85.714287" />
+    <rect
+       style="fill:#666666;fill-opacity:1;stroke:#666666;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4252-9"
+       width="10"
+       height="95"
+       x="-297.5"
+       y="54.862206"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
+       inkscape:export-xdpi="85.714287"
+       inkscape:export-ydpi="85.714287"
+       transform="scale(-1,1)" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 259.92641,153.66205 105.00001,0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 200.00001,149.86221 100,0"
        id="path6760-1-50"
        inkscape:path-effect="#path-effect6762-2-5"
-       inkscape:original-d="m 259.92641,153.66205 105.00001,0"
+       inkscape:original-d="m 200.00001,149.86221 100,0"
        inkscape:connector-curvature="0"
        inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
        inkscape:export-xdpi="85.714287"
        inkscape:export-ydpi="85.714287" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999905;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 272.43458,145.66204 80.01391,0"
+       d="m 210,142.36221 76.0132,0"
        id="path6760-1-6"
        inkscape:path-effect="#path-effect6762-2-38"
-       inkscape:original-d="m 272.43458,145.66204 80.01391,0"
+       inkscape:original-d="m 210,142.36221 76.0132,0"
        inkscape:connector-curvature="0"
        inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
        inkscape:export-xdpi="85.714287"
        inkscape:export-ydpi="85.714287" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 352.42642,148.11339 0,-94.437501"
-       id="path4202"
-       inkscape:path-effect="#path-effect4204"
-       inkscape:original-d="m 352.42642,148.11339 0,-94.437501"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
-       inkscape:export-xdpi="85.714287"
-       inkscape:export-ydpi="85.714287" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 272.48892,148.11339 0,-94.437503"
+       d="m 212.5,144.8622 0,-89.715005"
        id="path4202-8"
        inkscape:path-effect="#path-effect4204-7"
-       inkscape:original-d="m 272.48892,148.11339 0,-94.437503"
+       inkscape:original-d="m 212.5,144.8622 0,-89.715005"
        inkscape:connector-curvature="0"
        inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
        inkscape:export-xdpi="85.714287"
        inkscape:export-ydpi="85.714287" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 349.93322,53.675885 14.97932,0"
-       id="path4228"
-       inkscape:path-effect="#path-effect4230"
-       inkscape:original-d="m 349.93322,53.675885 14.97932,0"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
-       inkscape:export-xdpi="85.714287"
-       inkscape:export-ydpi="85.714287" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 260.00721,53.675213 14.97933,0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5.00000048;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 200,54.862206 15,0"
        id="path4228-4"
        inkscape:path-effect="#path-effect4230-9"
-       inkscape:original-d="m 260.00721,53.675213 14.97933,0"
+       inkscape:original-d="m 200,54.862206 15,0"
        inkscape:connector-curvature="0"
        inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
        inkscape:export-xdpi="85.714287"
        inkscape:export-ydpi="85.714287" />
     <path
-       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.99999881;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 312.78492,67.63171 c -6.29196,0 -12.49234,3.298525 -16.00849,8.516325 -3.52876,5.217212 -6.23986,10.986295 -8.00424,17.032653 -3.224,11.048312 -3.224,23.016962 0,34.065282 l 8.00424,17.03267 32.01698,0 8.00426,-17.03267 c 3.224,-11.04832 3.224,-23.01697 0,-34.065282 -1.76439,-6.046359 -4.47549,-11.815443 -8.00426,-17.032653 -3.51615,-5.2178 -9.71653,-8.516325 -16.00849,-8.516325 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.99999857;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 249.22448,68.47434 c -5.97735,3e-6 -11.86769,3.133575 -15.20805,8.090454 -3.35233,4.956311 -5.92788,10.436904 -7.60404,16.180911 -3.0628,10.495825 -3.0628,21.865975 0,32.361795 l 7.60404,16.18092 30.41612,0 7.60405,-16.18092 c 3.0628,-10.49582 3.0628,-21.86597 0,-32.361795 -1.67617,-5.744008 -4.25171,-11.224601 -7.60405,-16.180911 -3.34037,-4.956884 -9.23072,-8.090457 -15.20807,-8.090454 z"
        id="path7370"
        inkscape:path-effect="#path-effect7372"
-       inkscape:original-d="m 312.78492,67.63171 c -5.96602,0 -16.00849,8.516325 -16.00849,8.516325 0,0 -6.93638,10.787468 -8.00424,17.032653 -1.92173,11.238462 0,22.694862 0,34.065282 l 8.00424,17.03267 32.01698,0 8.00426,-17.03267 c 0,0 2.45199,-23.01395 0,-34.065282 -1.37075,-6.177888 -8.00426,-17.032653 -8.00426,-17.032653 0,0 -10.04249,-8.516325 -16.00849,-8.516325 z"
+       inkscape:original-d="m 249.22448,68.47434 c -5.66771,0 -15.20805,8.090454 -15.20805,8.090454 0,0 -6.58957,10.248026 -7.60404,16.180911 -1.82564,10.676455 0,21.559965 0,32.361795 l 7.60404,16.18092 30.41612,0 7.60405,-16.18092 c 0,0 2.32939,-21.86311 0,-32.361795 -1.30221,-5.868954 -7.60405,-16.180911 -7.60405,-16.180911 0,0 -9.54036,-8.090454 -15.20807,-8.090454 z"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="scsccccscs"
        inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
        inkscape:export-xdpi="85.714287"
        inkscape:export-ydpi="85.714287" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.99999881;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 312.78492,74.115364 c -2.09275,0 -4.16554,0.614401 -5.98798,1.643152 -1.82244,1.028752 -3.40003,2.462566 -4.70421,4.099251 -2.60836,3.27337 -4.10303,7.284449 -5.3163,11.290251 -1.26551,4.178258 -2.27566,8.466518 -2.45828,12.828402 -0.18261,4.36188 0.49473,8.82138 2.45828,12.72059 1.77665,3.52805 4.59299,6.52456 8.00425,8.51629 l 16.00848,0 c 3.41126,-1.99173 6.2276,-4.98824 8.00425,-8.51629 1.96355,-3.89921 2.64089,-8.35871 2.45828,-12.72059 -0.18262,-4.361884 -1.19277,-8.650144 -2.45828,-12.828402 -1.21327,-4.005802 -2.70794,-8.016881 -5.3163,-11.290251 -1.30418,-1.636685 -2.88177,-3.070499 -4.70421,-4.099251 -1.82244,-1.028751 -3.89523,-1.643152 -5.98798,-1.643152 z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.99999857;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 249.22448,74.63377 c -1.98811,10e-7 -3.95724,0.583677 -5.68856,1.560983 -1.73131,0.977306 -3.23002,2.339418 -4.46899,3.894257 -2.47794,3.109679 -3.89788,6.92018 -5.0505,10.725672 -1.20223,3.969314 -2.16188,8.043133 -2.33536,12.186888 -0.17348,4.14376 0.46999,8.38026 2.33536,12.08448 1.68782,3.35163 4.36334,6.1983 7.60403,8.09042 l 15.20806,0 c 3.24069,-1.89212 5.91621,-4.73879 7.60403,-8.09042 1.86537,-3.70422 2.50884,-7.94072 2.33536,-12.08448 -0.17348,-4.143755 -1.13313,-8.217574 -2.33536,-12.186888 -1.15262,-3.805495 -2.57256,-7.615998 -5.05051,-10.725678 -1.23897,-1.55484 -2.73768,-2.916952 -4.469,-3.894256 -1.73131,-0.977305 -3.70045,-1.560979 -5.68856,-1.560978 z"
        id="path7374"
        inkscape:path-effect="#path-effect7376"
-       inkscape:original-d="m 312.78492,74.115364 c -7.54648,0 -13.12055,9.614575 -16.00849,17.032654 -3.06309,7.868058 -3.06309,17.680892 0,25.548992 1.44393,3.70902 8.00425,8.51629 8.00425,8.51629 l 16.00848,0 c 0,0 6.56027,-4.80727 8.00425,-8.51629 3.06309,-7.8681 3.06309,-17.680934 0,-25.548992 -2.88789,-7.418079 -8.462,-17.032654 -16.00849,-17.032654 z"
+       inkscape:original-d="m 249.22448,74.63377 c -7.16915,0 -12.46451,9.133785 -15.20805,16.180912 -2.90994,7.474605 -2.90994,16.796728 0,24.271368 1.37172,3.52355 7.60403,8.09042 7.60403,8.09042 l 15.20806,0 c 0,0 6.23225,-4.56687 7.60403,-8.09042 2.90994,-7.47464 2.90994,-16.796763 0,-24.271368 -2.74349,-7.047127 -8.03889,-16.180912 -15.20807,-16.180912 z"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sssccsss"
        inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
        inkscape:export-xdpi="85.714287"
        inkscape:export-ydpi="85.714287" />
     <path
-       style="fill:#00b5bc;fill-opacity:1;fill-rule:evenodd;stroke:#00b5bc;stroke-width:2.99999881;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 312.78492,99.664342 c -2.18237,0 -4.34908,0.937068 -5.8437,2.527308 -1.49462,1.59023 -2.2957,3.81082 -2.16054,5.989 l 0,8.51636 16.00848,0 0,-8.51636 c 0.13516,-2.17818 -0.66592,-4.39877 -2.16054,-5.989 -1.49462,-1.59024 -3.66133,-2.527308 -5.8437,-2.527308 z"
+       style="fill:#00b5bc;fill-opacity:1;fill-rule:evenodd;stroke:#00b5bc;stroke-width:2.99999857;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 249.27379,101.54553 c -2.06201,0 -4.10862,0.89536 -5.50811,2.40972 -1.3995,1.51436 -2.13098,3.6251 -1.96867,5.68071 l 0,8.09048 14.95357,0 0,-8.09048 c 0.16231,-2.05561 -0.56917,-4.16635 -1.96867,-5.68071 -1.3995,-1.51436 -3.44611,-2.40972 -5.50812,-2.40972 z"
        id="path7378"
        inkscape:path-effect="#path-effect7380"
-       inkscape:original-d="m 312.78492,99.664342 c -3.77323,0 -8.00424,8.516308 -8.00424,8.516308 l 0,8.51636 16.00848,0 0,-8.51636 c 0,0 -4.23104,-8.516308 -8.00424,-8.516308 z"
+       inkscape:original-d="m 249.27379,101.54553 c -3.52458,0 -7.47678,8.09043 -7.47678,8.09043 l 0,8.09048 14.95357,0 0,-8.09048 c 0,0 -3.95222,-8.09043 -7.47679,-8.09043 z"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sccccs"
        inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
        inkscape:export-xdpi="85.714287"
        inkscape:export-ydpi="85.714287" />
     <path
-       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 352.42641,83.675887 -10,0 0,-20 10,0"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.99999976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 287.46969,80.357448 -9.49999,0 0,-18.999872 9.49999,0"
        id="path4224"
        inkscape:path-effect="#path-effect4226"
-       inkscape:original-d="m 352.42641,83.675887 -10,0 0,-20 10,0"
+       inkscape:original-d="m 287.46969,80.357448 -9.49999,0 0,-18.999872 9.49999,0"
        inkscape:connector-curvature="0"
        inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
        inkscape:export-xdpi="85.714287"
@@ -376,10 +503,10 @@
     <rect
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect6748-4"
-       width="100"
-       height="100"
-       x="100.70711"
-       y="-319.13177"
+       width="95"
+       height="94.999977"
+       x="2.5"
+       y="-349.86221"
        inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallSimple.png"
        inkscape:export-xdpi="85.714287"
        inkscape:export-ydpi="85.714287"
@@ -387,62 +514,51 @@
     <rect
        style="fill:#666666;fill-opacity:1;stroke:#666666;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect6782-4"
-       width="100"
-       height="50"
-       x="100.70711"
-       y="-269.13174"
+       width="95"
+       height="45"
+       x="2.5"
+       y="-302.36218"
        inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallSimple.png"
        inkscape:export-xdpi="85.714287"
        inkscape:export-ydpi="85.714287"
        transform="scale(1,-1)" />
     <path
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 98.207117,269.13177 105.000003,0"
+       d="m 0,302.36222 99.999982,0"
        id="path6760-6"
        inkscape:path-effect="#path-effect6762-5"
-       inkscape:original-d="m 98.207117,269.13177 105.000003,0"
+       inkscape:original-d="m 0,302.36222 99.999982,0"
        inkscape:connector-curvature="0"
        inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallSimple.png"
        inkscape:export-xdpi="85.714287"
        inkscape:export-ydpi="85.714287" />
     <path
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 98.207097,219.1456 105.000023,0"
+       d="m 0,254.8622 100,0"
        id="path6760-1-8"
        inkscape:path-effect="#path-effect6762-2-3"
-       inkscape:original-d="m 98.207097,219.1456 105.000023,0"
+       inkscape:original-d="m 0,254.8622 100,0"
        inkscape:connector-curvature="0"
        inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallSimple.png"
        inkscape:export-xdpi="85.714287"
        inkscape:export-ydpi="85.714287" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.99999976;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4422"
-       width="102.00001"
-       height="79.436501"
-       x="231.54688"
-       y="218.92567"
+       width="97"
+       height="75.907997"
+       x="248.37259"
+       y="230.34616"
        inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\door.png"
-       inkscape:export-xdpi="85.714287"
-       inkscape:export-ydpi="85.714287" />
-    <rect
-       style="fill:#666666;fill-opacity:1;stroke:#666666;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4391"
-       width="9.4696703"
-       height="40"
-       x="232.40039"
-       y="-316.47736"
-       transform="scale(1,-1)"
-       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\door.png"
-       inkscape:export-xdpi="85.714287"
-       inkscape:export-ydpi="85.714287" />
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        style="fill:#666666;fill-opacity:0;stroke:#666666;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
        id="rect4305"
-       width="100"
-       height="100"
-       x="232.58214"
-       y="-319.92285"
+       width="94.828117"
+       height="94.948273"
+       x="272.17236"
+       y="-353.22464"
        transform="scale(1,-1)"
        inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\door.png"
        inkscape:export-xdpi="85.714287"
@@ -450,116 +566,556 @@
     <rect
        style="fill:#666666;fill-opacity:1;stroke:#666666;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4391-7"
-       width="9.53125"
-       height="40"
-       x="323.0491"
-       y="-316.98346"
+       width="10"
+       height="45"
+       x="334.37259"
+       y="-326.40634"
        transform="scale(1,-1)"
        inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\door.png"
-       inkscape:export-xdpi="85.714287"
-       inkscape:export-ydpi="85.714287" />
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        style="fill:#830000;fill-opacity:1;stroke:#666666;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
        id="rect4416"
-       width="85"
-       height="10.000007"
-       x="239.5"
-       y="-311.03802"
+       width="80.603897"
+       height="9.4948349"
+       x="256.10501"
+       y="-317.91861"
        ry="6.8484333e-006"
        rx="6.8484333e-006"
        transform="scale(1,-1)"
        inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\door.png"
-       inkscape:export-xdpi="85.714287"
-       inkscape:export-ydpi="85.714287" />
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 241.99506,322.47736 0,-50.1875"
-       id="path4307-1"
-       inkscape:path-effect="#path-effect4309-6"
-       inkscape:original-d="m 241.99506,322.47736 0,-50.1875"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\door.png"
-       inkscape:export-xdpi="85.714287"
-       inkscape:export-ydpi="85.714287" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 323.05756,322.47736 0,-50.1875"
+       d="m 334.37258,328.90633 0,-50"
        id="path4307-2"
        inkscape:path-effect="#path-effect4309-9"
-       inkscape:original-d="m 323.05756,322.47736 0,-50.1875"
+       inkscape:original-d="m 334.37258,328.90633 0,-50"
        inkscape:connector-curvature="0"
        inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\door.png"
-       inkscape:export-xdpi="85.714287"
-       inkscape:export-ydpi="85.714287" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5.00000048;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 239.4773,319.97735 -9.42548,0"
-       id="path4353"
-       inkscape:path-effect="#path-effect4355"
-       inkscape:original-d="m 239.4773,319.97735 -9.42548,0"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\door.png"
-       inkscape:export-xdpi="85.714287"
-       inkscape:export-ydpi="85.714287" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5.00000048;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 335.1023,319.97735 -9.53596,0"
-       id="path4353-0"
-       inkscape:path-effect="#path-effect4355-4"
-       inkscape:original-d="m 335.1023,319.97735 -9.53596,0"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\door.png"
-       inkscape:export-xdpi="85.714287"
-       inkscape:export-ydpi="85.714287" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5.00000048;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 239.48776,274.78065 -9.42548,0"
-       id="path4353-3"
-       inkscape:path-effect="#path-effect4355-2"
-       inkscape:original-d="m 239.48776,274.78065 -9.42548,0"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\door.png"
-       inkscape:export-xdpi="85.714287"
-       inkscape:export-ydpi="85.714287" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5.00000048;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 334.89322,274.80057 -9.42548,0"
-       id="path4353-36"
-       inkscape:path-effect="#path-effect4355-5"
-       inkscape:original-d="m 334.89322,274.80057 -9.42548,0"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\door.png"
-       inkscape:export-xdpi="85.714287"
-       inkscape:export-ydpi="85.714287" />
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.99999976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 244.38127,310.91303 76.28163,0"
+       d="m 260.73381,317.7999 72.33644,0"
        id="path4408"
        inkscape:path-effect="#path-effect4410"
-       inkscape:original-d="m 244.38127,310.91303 76.28163,0"
+       inkscape:original-d="m 260.73381,317.7999 72.33644,0"
        inkscape:connector-curvature="0"
        inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\door.png"
-       inkscape:export-xdpi="85.714287"
-       inkscape:export-ydpi="85.714287" />
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 244.42546,300.91304 76.23743,0"
+       d="m 260.77572,308.30509 72.29452,0"
        id="path4412"
        inkscape:path-effect="#path-effect4414"
-       inkscape:original-d="m 244.42546,300.91304 76.23743,0"
+       inkscape:original-d="m 260.77572,308.30509 72.29452,0"
        inkscape:connector-curvature="0"
        inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\door.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 270.32922,317.75164 0,9.49483 14.22421,0"
+       id="path4418"
+       inkscape:path-effect="#path-effect4420"
+       inkscape:original-d="m 270.32922,317.75164 0,9.49483 14.22421,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\door.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4229"
+       width="97"
+       height="97"
+       x="101.5"
+       y="553.86218" />
+    <rect
+       style="fill:#666666;fill-opacity:1;stroke:#666666;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4239"
+       width="47"
+       height="47"
+       x="151.5"
+       y="553.86218" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4241"
+       width="2"
+       height="2"
+       x="196.49998"
+       y="553.86218" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 100,602.36221 99.99998,0"
+       id="path6760-6-7"
+       inkscape:path-effect="#path-effect6762-5-16"
+       inkscape:original-d="m 100,602.36221 99.99998,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallSimple.png"
+       inkscape:export-xdpi="85.714287"
+       inkscape:export-ydpi="85.714287" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6748-4-6"
+       width="95"
+       height="94.999977"
+       x="371.94543"
+       y="258.39774"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallSimple.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#666666;fill-opacity:1;stroke:#666666;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6782-4-4"
+       width="95"
+       height="45"
+       x="371.94543"
+       y="305.89774"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallSimple.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 369.44544,305.89771 99.99998,0"
+       id="path6760-6-2"
+       inkscape:path-effect="#path-effect6762-5-0"
+       inkscape:original-d="m 369.44544,305.89771 99.99998,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallSimple.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 369.44544,353.39773 100,0"
+       id="path6760-1-8-1"
+       inkscape:path-effect="#path-effect6762-2-3-41"
+       inkscape:original-d="m 369.44544,353.39773 100,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallSimple.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 331.87258,278.90635 15,0"
+       id="path6760-6-2-6"
+       inkscape:path-effect="#path-effect6762-5-0-5"
+       inkscape:original-d="m 331.87258,278.90635 15,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\door.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 331.87258,326.40635 15,0"
+       id="path6760-6-2-6-9"
+       inkscape:path-effect="#path-effect6762-5-0-5-3"
+       inkscape:original-d="m 331.87258,326.40635 15,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\door.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#666666;fill-opacity:1;stroke:#666666;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4391-7-4"
+       width="10"
+       height="45"
+       x="-259.37259"
+       y="-326.40634"
+       transform="scale(-1,-1)"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\door.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 259.37258,328.90633 0,-50"
+       id="path4307-2-9"
+       inkscape:path-effect="#path-effect4309-9-4"
+       inkscape:original-d="m 259.37258,328.90633 0,-50"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\door.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 261.87258,278.90635 -15,0"
+       id="path6760-6-2-6-6"
+       inkscape:path-effect="#path-effect6762-5-0-5-8"
+       inkscape:original-d="m 261.87258,278.90635 -15,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\door.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 261.87258,326.40635 -15,0"
+       id="path6760-6-2-6-9-9"
+       inkscape:path-effect="#path-effect6762-5-0-5-3-7"
+       inkscape:original-d="m 261.87258,326.40635 -15,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\door.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:5.00000048;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6748-44"
+       width="60"
+       height="45"
+       x="-473.5"
+       y="-151.8622"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallToToilet.png"
+       inkscape:export-xdpi="85.714287"
+       inkscape:export-ydpi="85.714287"
+       transform="scale(-1,-1)" />
+    <rect
+       style="fill:#666666;fill-opacity:1;stroke:#666666;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4141-4-2"
+       width="30.000002"
+       height="94.995255"
+       x="-408.50003"
+       y="56.866947"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallToToilet.png"
+       inkscape:export-xdpi="85.714287"
+       inkscape:export-ydpi="85.714287"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#666666;fill-opacity:1;stroke:#666666;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6782-9"
+       width="95.000023"
+       height="44.999996"
+       x="-473.5"
+       y="-104.36221"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallToToilet.png"
+       inkscape:export-xdpi="85.714287"
+       inkscape:export-ydpi="85.714287"
+       transform="scale(-1,-1)" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 476.00002,104.3622 -65,0"
+       id="path6760-61"
+       inkscape:path-effect="#path-effect6762-6"
+       inkscape:original-d="m 476.00002,104.3622 -65,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallToToilet.png"
        inkscape:export-xdpi="85.714287"
        inkscape:export-ydpi="85.714287" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 254.5,310.8622 0,10 15,0"
-       id="path4418"
-       inkscape:path-effect="#path-effect4420"
-       inkscape:original-d="m 254.5,310.8622 0,10 15,0"
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 476.00002,56.862205 -100.00001,0"
+       id="path6760-1-2"
+       inkscape:path-effect="#path-effect6762-2-9"
+       inkscape:original-d="m 476.00002,56.862205 -100.00001,0"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\door.png"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallToToilet.png"
        inkscape:export-xdpi="85.714287"
        inkscape:export-ydpi="85.714287" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 476.00002,151.8622 -100.00001,0"
+       id="path6760-1-5-2"
+       inkscape:path-effect="#path-effect6762-2-2-1"
+       inkscape:original-d="m 476.00002,151.8622 -100.00001,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallToToilet.png"
+       inkscape:export-xdpi="85.714287"
+       inkscape:export-ydpi="85.714287" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 287.5,144.8622 0,-89.715005"
+       id="path4202-8-9"
+       inkscape:path-effect="#path-effect4204-7-4"
+       inkscape:original-d="m 287.5,144.8622 0,-89.715005"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
+       inkscape:export-xdpi="85.714287"
+       inkscape:export-ydpi="85.714287" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5.00000048;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 300,54.862204 -15,0"
+       id="path4228-4-1"
+       inkscape:path-effect="#path-effect4230-9-7"
+       inkscape:original-d="m 300,54.862204 -15,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
+       inkscape:export-xdpi="85.714287"
+       inkscape:export-ydpi="85.714287" />
+    <rect
+       style="fill:#666666;fill-opacity:1;stroke:#666666;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4614-0"
+       width="47"
+       height="2"
+       x="451.5"
+       y="548.86218"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\phone.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6748-4-62"
+       width="95"
+       height="50.249977"
+       x="454.86221"
+       y="402.5"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\phone.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="matrix(0,1,1,0,0,0)" />
+    <rect
+       style="fill:#666666;fill-opacity:1;stroke:#666666;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4614"
+       width="47"
+       height="2"
+       x="451.5"
+       y="453.86221"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\phone.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#666666;fill-opacity:1;stroke:#666666;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6782-4-41"
+       width="95"
+       height="28.75"
+       x="454.86221"
+       y="452.5"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\phone.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="matrix(0,1,1,0,0,0)" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 449.99998,452.3622 0,99.99998"
+       id="path6760-6-25"
+       inkscape:path-effect="#path-effect6762-5-4"
+       inkscape:original-d="m 449.99998,452.3622 0,99.99998"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\phone.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 497.5,452.3622 0,10"
+       id="path6760-1-8-6-2"
+       inkscape:path-effect="#path-effect6762-2-3-5-7"
+       inkscape:original-d="m 497.5,452.3622 0,10"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\phone.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 500,459.8622 -20,0"
+       id="path6760-1-8-6-2-4"
+       inkscape:path-effect="#path-effect6762-2-3-5-7-5"
+       inkscape:original-d="m 500,459.8622 -20,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\phone.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 497.5,552.3622 0,-10"
+       id="path6760-1-8-6-2-7"
+       inkscape:path-effect="#path-effect6762-2-3-5-7-2"
+       inkscape:original-d="m 497.5,552.3622 0,-10"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\phone.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 500,544.8622 -20,0"
+       id="path6760-1-8-6-2-4-4"
+       inkscape:path-effect="#path-effect6762-2-3-5-7-5-1"
+       inkscape:original-d="m 500,544.8622 -20,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\phone.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 482.5,462.3622 0,80"
+       id="path6760-6-25-2"
+       inkscape:path-effect="#path-effect6762-5-4-0"
+       inkscape:original-d="m 482.5,462.3622 0,80"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\phone.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 152.5,552.36222 0,99.99998"
+       id="path6760-6-25-4"
+       inkscape:path-effect="#path-effect6762-5-4-06"
+       inkscape:original-d="m 152.5,552.36222 0,99.99998"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallSimple.png"
+       inkscape:export-xdpi="85.714287"
+       inkscape:export-ydpi="85.714287" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Ebene 2">
+    <rect
+       style="fill:#800000;fill-opacity:1;stroke:#800000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4634"
+       width="4"
+       height="47"
+       x="486.5"
+       y="478.86221"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\phone.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 492.78738,497.91383 4.1269,5.36072 c 0.12992,0.16876 0.25938,0.34091 0.34369,0.53649 0.0843,0.19559 0.12102,0.41493 0.0812,0.62416 -0.0398,0.20923 -0.1574,0.40344 -0.32729,0.53188 -0.16989,0.12844 -0.38757,0.1888 -0.60022,0.177 -0.21265,-0.0118 -0.41775,-0.0927 -0.59551,-0.21005 -0.17775,-0.11731 -0.32958,-0.26948 -0.47393,-0.42608 -0.14435,-0.1566 -0.2834,-0.31925 -0.44564,-0.45723 -0.16224,-0.13798 -0.3519,-0.25171 -0.56173,-0.28817 -0.19004,-0.033 -0.38991,2.2e-4 -0.5622,0.0869 -0.17229,0.0867 -0.31679,0.22571 -0.41614,0.39104 -0.0994,0.16534 -0.15401,0.35629 -0.16417,0.54891 -0.0102,0.19262 0.0236,0.38671 0.0917,0.56719 0.13614,0.36095 0.40609,0.66103 0.72264,0.88154 0.31654,0.2205 0.67891,0.36679 1.04668,0.48329 0.73553,0.233 1.52498,0.36289 2.16021,0.80081 0.31761,0.21896 0.5894,0.51714 0.72846,0.87698 0.0695,0.17992 0.10503,0.37367 0.0967,0.56638 -0.008,0.19271 -0.0609,0.38419 -0.15838,0.55064 -0.17108,0.29219 -0.47032,0.492 -0.78871,0.60722 -0.31838,0.11521 -0.65846,0.15437 -0.99514,0.19022 -0.33669,0.0358 -0.67676,0.0699 -0.9984,0.17564 -0.32165,0.10577 -0.62814,0.29113 -0.81615,0.57272 -0.1351,0.20234 -0.20271,0.44638 -0.2068,0.68965 -0.004,0.24327 0.0537,0.48559 0.15261,0.70787 0.19785,0.44457 0.55145,0.80097 0.92669,1.11078 0.37524,0.3098 0.7805,0.58475 1.12858,0.92478 0.34807,0.34004 0.64226,0.76008 0.72365,1.23983 0.0788,0.46472 -0.0509,0.9476 -0.2856,1.35638 -0.23469,0.40877 -0.56857,0.75162 -0.92014,1.06558 -0.35158,0.31397 -0.72474,0.60412 -1.06088,0.93455 -0.33613,0.33044 -0.63791,0.70714 -0.81164,1.14531 -0.17493,0.44118 -0.21231,0.92237 -0.28836,1.39084 -0.0761,0.46846 -0.20237,0.9501 -0.51568,1.30658 -0.28352,0.32259 -0.71087,0.51377 -1.14033,0.51013"
+       id="path4746"
+       inkscape:path-effect="#path-effect4748"
+       inkscape:original-d="m 492.78738,497.91383 4.1269,5.36072 c 0.62709,0.81457 -1.11992,23.88851 -2.57939,0.488 -0.10131,-1.62444 4.37072,6.37408 3.54552,5.75372 -1.16705,-0.87735 -3.18951,0.30603 -3.5984,1.5458 -0.56476,1.71236 -31.18814,56.38044 2.72473,4.67291 0.80073,-1.22088 -3.07826,2.20928 -3.07826,4.50182 0,2.29254 178.94674,-272.58274 -0.80404,2.69742 -1.10595,1.69374 -1.14033,0.51013 -1.14033,0.51013"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssssssc"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\phone.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <ellipse
+       style="fill:#800000;fill-opacity:1;stroke:#800000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4639"
+       cx="491.875"
+       cy="491.11221"
+       rx="1"
+       ry="6"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\phone.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#666666;fill-opacity:1;stroke:#666666;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4614-0-4"
+       width="47"
+       height="2"
+       x="351.36221"
+       y="-530"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\socket.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6748-4-62-5"
+       width="95"
+       height="50.249977"
+       x="-624"
+       y="302.36221"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\socket.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#666666;fill-opacity:1;stroke:#666666;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4614-9"
+       width="47"
+       height="2"
+       x="351.36221"
+       y="-625"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\socket.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#666666;fill-opacity:1;stroke:#666666;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6782-4-41-1"
+       width="95"
+       height="28.75"
+       x="-624"
+       y="352.36221"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\socket.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="scale(-1,1)" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 626.50001,349.86218 -99.99998,0"
+       id="path6760-6-25-8"
+       inkscape:path-effect="#path-effect6762-5-4-8"
+       inkscape:original-d="m 626.50001,349.86218 -99.99998,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\socket.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 626.50001,397.3622 -10,0"
+       id="path6760-1-8-6-2-1"
+       inkscape:path-effect="#path-effect6762-2-3-5-7-54"
+       inkscape:original-d="m 626.50001,397.3622 -10,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\socket.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 619.00001,399.8622 0,-20"
+       id="path6760-1-8-6-2-4-9"
+       inkscape:path-effect="#path-effect6762-2-3-5-7-5-2"
+       inkscape:original-d="m 619.00001,399.8622 0,-20"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\socket.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 526.50001,397.3622 10,0"
+       id="path6760-1-8-6-2-7-7"
+       inkscape:path-effect="#path-effect6762-2-3-5-7-2-7"
+       inkscape:original-d="m 526.50001,397.3622 10,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\socket.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 534.00001,399.8622 0,-20"
+       id="path6760-1-8-6-2-4-4-9"
+       inkscape:path-effect="#path-effect6762-2-3-5-7-5-1-0"
+       inkscape:original-d="m 534.00001,399.8622 0,-20"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\socket.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 576.5,394.8622 0,5"
+       id="path4824"
+       inkscape:path-effect="#path-effect4826"
+       inkscape:original-d="m 576.5,394.8622 0,5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\socket.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ac9d93;fill-opacity:1;stroke:#ac9d93;stroke-width:1.99999988;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4822"
+       width="10"
+       height="13"
+       x="384.86221"
+       y="-583"
+       rx="0.1"
+       ry="0.1"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\socket.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 616.50001,382.3622 -80,0"
+       id="path6760-6-25-2-4"
+       inkscape:path-effect="#path-effect6762-5-4-0-6"
+       inkscape:original-d="m 616.50001,382.3622 -80,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\socket.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
 </svg>
