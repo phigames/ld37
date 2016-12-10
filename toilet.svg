@@ -20,6 +20,18 @@
      id="defs6200">
     <inkscape:path-effect
        effect="spiro"
+       id="path-effect4230"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4226"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4204"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
        id="path-effect7380"
        is_visible="true" />
     <inkscape:path-effect
@@ -42,6 +54,26 @@
        effect="spiro"
        id="path-effect6762-2"
        is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-2-3"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-2-8"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6762-2-38"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4204-7"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4230-9"
+       is_visible="true" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -50,16 +82,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="115.09848"
-     inkscape:cy="977.77255"
+     inkscape:zoom="4"
+     inkscape:cx="254.72449"
+     inkscape:cy="927.92674"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer6"
      showgrid="true"
-     inkscape:window-width="1280"
-     inkscape:window-height="657"
-     inkscape:window-x="-8"
-     inkscape:window-y="1192"
+     inkscape:window-width="1920"
+     inkscape:window-height="1137"
+     inkscape:window-x="203"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
@@ -73,7 +105,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -81,6 +113,26 @@
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <rect
+       style="fill:#767676;fill-opacity:1;stroke:#767676;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4250"
+       width="100"
+       height="7.0625067"
+       x="100"
+       y="145.2997"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
+       inkscape:export-xdpi="85.714287"
+       inkscape:export-ydpi="85.714287" />
+    <rect
+       style="fill:#767676;fill-opacity:1;stroke:#767676;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4254"
+       width="10"
+       height="100"
+       x="190"
+       y="52.362206"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
+       inkscape:export-xdpi="85.714287"
+       inkscape:export-ydpi="85.714287" />
     <rect
        style="fill:#808080;fill-opacity:0;stroke:#767676;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
        id="rect6748"
@@ -93,22 +145,12 @@
        inkscape:export-ydpi="85.714287" />
     <rect
        style="fill:#767676;fill-opacity:1;stroke:#767676;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect6782"
-       width="100"
-       height="50"
+       id="rect4252"
+       width="10"
+       height="100"
        x="100"
-       y="102.36221"
-       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallSimple.png"
-       inkscape:export-xdpi="85.714287"
-       inkscape:export-ydpi="85.714287" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 97.5,102.3622 105.00001,0"
-       id="path6760"
-       inkscape:path-effect="#path-effect6762"
-       inkscape:original-d="m 97.5,102.3622 105.00001,0"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallSimple.png"
+       y="52.362206"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
        inkscape:export-xdpi="85.714287"
        inkscape:export-ydpi="85.714287" />
     <path
@@ -118,7 +160,57 @@
        inkscape:path-effect="#path-effect6762-2"
        inkscape:original-d="m 97.5,152.34837 105.00001,0"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\wallSimple.png"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
+       inkscape:export-xdpi="85.714287"
+       inkscape:export-ydpi="85.714287" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4.99999905;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 110.00817,144.34836 80.01391,0"
+       id="path6760-1-6"
+       inkscape:path-effect="#path-effect6762-2-38"
+       inkscape:original-d="m 110.00817,144.34836 80.01391,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
+       inkscape:export-xdpi="85.714287"
+       inkscape:export-ydpi="85.714287" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 190.00001,146.79971 0,-94.437503"
+       id="path4202"
+       inkscape:path-effect="#path-effect4204"
+       inkscape:original-d="m 190.00001,146.79971 0,-94.437503"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
+       inkscape:export-xdpi="85.714287"
+       inkscape:export-ydpi="85.714287" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 110.06251,146.79971 0,-94.437505"
+       id="path4202-8"
+       inkscape:path-effect="#path-effect4204-7"
+       inkscape:original-d="m 110.06251,146.79971 0,-94.437505"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
+       inkscape:export-xdpi="85.714287"
+       inkscape:export-ydpi="85.714287" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 187.50681,52.362203 14.97932,0"
+       id="path4228"
+       inkscape:path-effect="#path-effect4230"
+       inkscape:original-d="m 187.50681,52.362203 14.97932,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
+       inkscape:export-xdpi="85.714287"
+       inkscape:export-ydpi="85.714287" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 97.580796,52.361531 14.979334,0"
+       id="path4228-4"
+       inkscape:path-effect="#path-effect4230-9"
+       inkscape:original-d="m 97.580796,52.361531 14.979334,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
        inkscape:export-xdpi="85.714287"
        inkscape:export-ydpi="85.714287" />
   </g>
@@ -127,28 +219,47 @@
      id="layer6"
      inkscape:label="toilet">
     <path
-       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1"
-       d="m 150,57.362205 c -3.86373,0 -7.68176,1.909016 -10,5 -2.20198,3.027726 -3.89901,6.421779 -5,10 -1.98999,6.467477 -1.98999,13.532523 0,20 l 5,9.999995 20,0 5,-9.999995 c 1.98999,-6.467477 1.98999,-13.532523 0,-20 -1.10099,-3.578221 -2.79802,-6.972274 -5,-10 -2.31824,-3.090984 -6.13627,-5 -10,-5 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.99999881;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 150.35851,66.318028 c -6.29196,0 -12.49234,3.298525 -16.00849,8.516325 -3.52876,5.217212 -6.23986,10.986295 -8.00424,17.032653 -3.224,11.048314 -3.224,23.016964 0,34.065284 l 8.00424,17.03267 32.01698,0 8.00426,-17.03267 c 3.22401,-11.04832 3.22401,-23.01697 0,-34.065284 -1.76439,-6.046359 -4.47549,-11.815443 -8.00426,-17.032653 -3.51615,-5.2178 -9.71653,-8.516325 -16.00849,-8.516325 z"
        id="path7370"
        inkscape:path-effect="#path-effect7372"
-       inkscape:original-d="m 150,57.362205 c -3.72678,0 -10,5 -10,5 0,0 -4.33293,6.333406 -5,10 -1.20042,6.59819 0,13.324327 0,20 l 5,9.999995 20,0 5,-9.999995 c 0,0 1.53169,-13.511673 0,-20 -0.85624,-3.627085 -5,-10 -5,-10 0,0 -6.27322,-5 -10,-5 z"
+       inkscape:original-d="m 150.35851,66.318028 c -5.96602,0 -16.00849,8.516325 -16.00849,8.516325 0,0 -6.93638,10.787468 -8.00424,17.032653 -1.92173,11.238464 0,22.694864 0,34.065284 l 8.00424,17.03267 32.01698,0 8.00426,-17.03267 c 0,0 2.45199,-23.01395 0,-34.065284 -1.37075,-6.177888 -8.00426,-17.032653 -8.00426,-17.032653 0,0 -10.04249,-8.516325 -16.00849,-8.516325 z"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="scsccccscs" />
+       sodipodi:nodetypes="scsccccscs"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
+       inkscape:export-xdpi="85.714287"
+       inkscape:export-ydpi="85.714287" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 150,62.362205 c -1.26183,0 -2.5134,0.34953 -3.62785,0.941318 -1.11445,0.591788 -2.09438,1.421124 -2.91841,2.376735 -1.64806,1.91122 -2.658,4.287022 -3.45374,6.681947 -0.81052,2.439424 -1.42892,4.96345 -1.5308,7.531982 -0.10187,2.568532 0.33301,5.193588 1.5308,7.468018 1.11502,2.117256 2.88274,3.884981 5,5 l 10,0 c 2.11726,-1.115019 3.88498,-2.882744 5,-5 1.19779,-2.27443 1.63267,-4.899486 1.5308,-7.468018 -0.10188,-2.568532 -0.72028,-5.092558 -1.5308,-7.531982 -0.79574,-2.394925 -1.80568,-4.770727 -3.45374,-6.681947 -0.82403,-0.955611 -1.80396,-1.784947 -2.91841,-2.376735 C 152.5134,62.711735 151.26183,62.362205 150,62.362205 Z"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.99999881;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 150.35851,72.801682 c -2.09275,0 -4.16554,0.614401 -5.98798,1.643152 -1.82244,1.028752 -3.40003,2.462566 -4.70421,4.099251 -2.60836,3.27337 -4.10303,7.284449 -5.3163,11.290251 -1.26551,4.178258 -2.27566,8.466518 -2.45828,12.828394 -0.18261,4.36189 0.49473,8.82139 2.45828,12.7206 1.77665,3.52805 4.59299,6.52456 8.00425,8.51629 l 16.00848,0 c 3.41126,-1.99173 6.2276,-4.98824 8.00425,-8.51629 1.96355,-3.89921 2.64089,-8.35871 2.45828,-12.7206 -0.18262,-4.361876 -1.19277,-8.650136 -2.45828,-12.828394 -1.21327,-4.005802 -2.70794,-8.016881 -5.3163,-11.290251 -1.30418,-1.636685 -2.88177,-3.070499 -4.70421,-4.099251 -1.82244,-1.028751 -3.89523,-1.643152 -5.98798,-1.643152 z"
        id="path7374"
        inkscape:path-effect="#path-effect7376"
-       inkscape:original-d="m 150,62.362205 c -4.71405,0 -8.19601,5.64479 -10,10 -1.91342,4.619398 -1.91342,10.380602 0,15 0.90199,2.177605 5,5 5,5 l 10,0 c 0,0 4.09801,-2.822395 5,-5 1.91342,-4.619398 1.91342,-10.380602 0,-15 -1.80399,-4.35521 -5.28595,-10 -10,-10 z"
+       inkscape:original-d="m 150.35851,72.801682 c -7.54648,0 -13.12055,9.614575 -16.00849,17.032654 -3.06309,7.868058 -3.06309,17.680894 0,25.548994 1.44393,3.70902 8.00425,8.51629 8.00425,8.51629 l 16.00848,0 c 0,0 6.56027,-4.80727 8.00425,-8.51629 3.06309,-7.8681 3.06309,-17.680936 0,-25.548994 -2.88789,-7.418079 -8.462,-17.032654 -16.00849,-17.032654 z"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="sssccsss" />
+       sodipodi:nodetypes="sssccsss"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
+       inkscape:export-xdpi="85.714287"
+       inkscape:export-ydpi="85.714287" />
     <path
-       style="fill:#00b5bc;fill-rule:evenodd;stroke:#00b5bc;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1"
-       d="m 150,77.362205 c -1.309,0 -2.60993,0.538865 -3.53553,1.464466 C 145.53887,79.752272 145,81.053208 145,82.362205 l 0,5 10,0 0,-5 c 0,-1.308997 -0.53887,-2.609933 -1.46447,-3.535534 C 152.60993,77.90107 151.309,77.362205 150,77.362205 Z"
+       style="fill:#00b5bc;fill-opacity:1;fill-rule:evenodd;stroke:#00b5bc;stroke-width:2.99999881;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 150.35851,98.35066 c -2.18237,0 -4.34908,0.937069 -5.8437,2.5273 -1.49462,1.59024 -2.2957,3.81083 -2.16054,5.98901 l 0,8.51636 16.00848,0 0,-8.51636 c 0.13516,-2.17818 -0.66592,-4.39877 -2.16054,-5.98901 -1.49462,-1.590231 -3.66133,-2.5273 -5.8437,-2.5273 z"
        id="path7378"
        inkscape:path-effect="#path-effect7380"
-       inkscape:original-d="m 150,77.362205 c -2.35702,0 -5,5 -5,5 l 0,5 10,0 0,-5 c 0,0 -2.64298,-5 -5,-5 z"
+       inkscape:original-d="m 150.35851,98.35066 c -3.77323,0 -8.00424,8.51631 -8.00424,8.51631 l 0,8.51636 16.00848,0 0,-8.51636 c 0,0 -4.23104,-8.51631 -8.00424,-8.51631 z"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="sccccs" />
+       sodipodi:nodetypes="sccccs"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
+       inkscape:export-xdpi="85.714287"
+       inkscape:export-ydpi="85.714287" />
+    <path
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1"
+       d="m 190,82.362205 -10,0 0,-20 10,0"
+       id="path4224"
+       inkscape:path-effect="#path-effect4226"
+       inkscape:original-d="m 190,82.362205 -10,0 0,-20 10,0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\toilet.png"
+       inkscape:export-xdpi="85.714287"
+       inkscape:export-ydpi="85.714287" />
   </g>
 </svg>
