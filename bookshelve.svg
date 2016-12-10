@@ -14,7 +14,7 @@
    viewBox="0 0 744.09448819 1052.3622047"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="bookshelve.svg"
    inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\web\res\bookshelve.png"
    inkscape:export-xdpi="85.714287"
@@ -28,17 +28,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="32.684456"
-     inkscape:cy="214.26069"
+     inkscape:zoom="1.979899"
+     inkscape:cx="-41.364798"
+     inkscape:cy="173.41027"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="true"
-     inkscape:window-width="1280"
-     inkscape:window-height="657"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
      inkscape:window-x="-8"
-     inkscape:window-y="1192"
-     inkscape:window-maximized="1">
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true">
     <inkscape:grid
        type="xygrid"
        id="grid4136" />
@@ -51,21 +53,58 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Ebene"
+     style="display:inline">
+    <path
+       style="fill:#e3dedb;stroke:#800000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 25.357492,992.00504 -14.999999,0 c -1.3261404,-3.59856 -1.0479164,-6.87625 0,-10 l 14.999999,0"
+       id="path3769"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#c8beb7;stroke:#045700;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 25.357492,967.00504 -19.9999994,0 c -1.91339,6.03029 -1.138958,10.61328 0,15 l 19.9999994,0"
+       id="path3767"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#ac9d93;stroke:#6a0000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 25.357492,1032.005 -19.9999994,0 c -1.662031,-3.7488 -1.177371,-6.961 0,-10 l 19.9999994,0"
+       id="path3773"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#e3dedb;stroke:#045700;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 25.357492,1042.005 -10,0 c -1.723983,-3.4659 -1.36229,-6.7714 0,-10 l 10,0"
+       id="path3775"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#c8beb7;stroke:#03006a;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 25.357492,1007.005 -14.999999,0 c -1.3622974,4.3713 -1.7239764,9.2043 0,15 l 14.999999,0"
+       id="path3771"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+  </g>
   <g
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#925000;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#925000;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect4438"
-       width="100"
-       height="100"
-       x="5"
-       y="802.36218"
-       rx="5" />
+       width="75"
+       height="95"
+       x="22.500357"
+       y="954.86218"
+       rx="5"
+       ry="5" />
   </g>
 </svg>

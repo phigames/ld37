@@ -17,9 +17,12 @@ class Room {
         tiles[i].add(null);
       }
     }
-    tiles[1][2] = new TileBookshelve(1, 2);
-    tiles[3][1] = new TileBed.Head(3, 1);
-    tiles[3][2] = new TileBed.Feet(3, 2, tiles[3][1]);
+    tiles[5][3] = new TileBookshelve(5, 3);
+    TileGroup bed = new TileGroup();
+    tiles[1][1] = new TileBed(1, 1, bed, 1);
+    tiles[1][2] = new TileBed(1, 2, bed, 2);
+    tiles[5][1] = new TileDish(5, 1);
+    tiles[6][2] = new TileToilet(6, 2);
     highlightX = 0;
     highlightY = 0;
   }
@@ -43,9 +46,10 @@ class Room {
       }
     } else {
       if (Input.mouseDown) {
-        if (((highlightX - selectedTile.positionX).abs() == 0 && (highlightY - selectedTile.positionY).abs() == 1) ||
-            ((highlightX - selectedTile.positionX).abs() == 1 && (highlightY - selectedTile.positionY).abs() == 0)) {
-          selectedTile.move(highlightX, highlightY);
+        int moveX = highlightX - selectedTile.positionX;
+        int moveY = highlightY - selectedTile.positionY;
+        if ((moveX.abs() == 1 && moveY.abs() == 0) || (moveX.abs() == 0 && moveY.abs() == 1)) {
+          selectedTile.move(moveX, moveY);
         }
       } else {
         selectedTile = null;
