@@ -1,6 +1,7 @@
 library ld37;
 
 import 'dart:html';
+import 'dart:math';
 
 part 'room.dart';
 part 'tile.dart';
@@ -31,7 +32,10 @@ void update(num deltaTime) {
 }
 
 void draw() {
-
+  bufferContext.clearRect(0, 0, canvas.width, canvas.height);
+  room.draw();
+  canvasContext.clearRect(0, 0, canvas.width, canvas.height);
+  canvasContext.drawImage(buffer, 0, 0);
 }
 
 frame(num time) {
