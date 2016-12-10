@@ -14,7 +14,7 @@
    viewBox="0 0 744.09448819 1052.3622047"
    id="svg5629"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="dishAfter.svg">
   <defs
      id="defs5631" />
@@ -25,16 +25,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="113.88283"
-     inkscape:cy="770.44434"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="-266.47661"
+     inkscape:cy="-54.302883"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1280"
-     inkscape:window-height="657"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
      inkscape:window-x="-8"
-     inkscape:window-y="1192"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -66,16 +66,51 @@
        rx="5"
        ry="5" />
     <circle
-       style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-miterlimit:3.5999999;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-miterlimit:3.59999989999999980;stroke-opacity:1;stroke-dasharray:none"
        id="path6185"
        cx="150"
        cy="302.36221"
-       r="40" />
+       r="40"
+       sodipodi:cx="150"
+       sodipodi:cy="302.36221"
+       sodipodi:rx="40"
+       sodipodi:ry="40"
+       transform="translate(-100,699.99999)" />
     <circle
-       style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-miterlimit:3.5999999;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#cccccc;fill-opacity:0;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-miterlimit:3.5999999;stroke-opacity:1;stroke-dasharray:none"
        id="path6187"
        cx="150"
        cy="302.36221"
-       r="20" />
+       r="20"
+       sodipodi:cx="150"
+       sodipodi:cy="302.36221"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       transform="translate(-100,699.99999)" />
+    <path
+       style="fill:#f2f2f2;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.99999976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 73.69796,1023.1799 c 3.616743,-1.7085 2.862276,-7.9879 -3.894163,-5.9021 -6.179608,-3.7166 -25.5796,-11.912 -25.5796,-11.912 -2.463025,-9.89609 -7.461,-6.42906 -8.037858,-0.6267 -6.3293,2.9899 -1.530951,8.4649 4.6556,7.4189 0,0 18.638555,6.6786 25.245276,11.2994 4.748442,7.7105 10.650629,3.8163 7.610745,-0.2775 z"
+       id="path6192"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="fill:#c6741b;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 35,987.36218 -6.999999,4.00002 7,6 5,-5 z"
+       id="path3761"
+       inkscape:connector-curvature="0"
+       transform="translate(-4.9229925e-6,0)"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#c6741b;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 54.788068,981.57413 -4,10 6,2 6,-6 z"
+       id="path3761-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#c6741b;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 62.999996,998.3622 -4,3 2,4 5,-2 z"
+       id="path3761-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
   </g>
 </svg>

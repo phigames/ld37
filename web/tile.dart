@@ -6,13 +6,17 @@ abstract class Tile {
   static const num HEIGHT = 100;
 
   int positionX, positionY;
-  Tile partnerTile;
+  TileGroup group;
   //num spriteX, spriteY;
   ImageElement image;
 
-  Tile(this.positionX, this.positionY);
+  Tile(this.positionX, this.positionY, [this.group]);
 
-  void move(int targetX, int targetY);
+  bool canMoveTo(Tile tile);
+
+  void move(int moveX, moveY) {
+    group.move(moveX, moveY);
+  }
 
   void draw() {
     bufferContext.drawImage(image, positionX * Tile.WIDTH, positionY * Tile.HEIGHT);
@@ -23,19 +27,55 @@ abstract class Tile {
 
 }
 
+class TileGroup {
+
+  List<Tile> tiles;
+
+  TileGroup() {
+    tiles = new List<Tile>();
+  }
+
+  void add(Tile tile) {
+    tiles.add(tile);
+  }
+
+  void move(int moveX, int moveY) {
+    bool moveable = true;
+    for (int i = 0; i < tiles.length; i++) {
+      int targetX = tiles[i].positionX + moveX;
+      int targetY = tiles[i].positionY + moveY;
+      if (targetX < 0 || targetX >= Room.WIDTH || targetY < 0 || targetY >= Room.HEIGHT) {
+        moveable = false;
+      } else {
+        Tile targetTile = room.tiles[targetX][targetY];
+        if (!tiles.contains(targetTile) && !tiles[i].canMoveTo(targetTile)) {
+          moveable = false;
+        }
+      }
+    }
+    if (moveable) {
+      for (int i = 0; i < tiles.length; i++) {
+        room.tiles[tiles[i].positionX][tiles[i].positionY] = null;
+      }
+      for (int i = 0; i < tiles.length; i++) {
+        room.tiles[tiles[i].positionX + moveX][tiles[i].positionY + moveY] = tiles[i];
+        tiles[i].positionX += moveX;
+        tiles[i].positionY += moveY;
+      }
+    }
+  }
+
+}
+
 class TileBookshelve extends Tile {
 
   TileBookshelve(int positionX, int positionY) : super(positionX, positionY) {
+    group = new TileGroup()..add(this);
     image = Resources.imgBookshelve;
   }
 
-  void move(int targetX, int targetY) {
-    if (room.tiles[targetX][targetY] == null) {
-      room.tiles[positionX][positionY] = null;
-      room.tiles[targetX][targetY] = this;
-      positionX = targetX;
-      positionY = targetY;
-    }
+  bool canMoveTo(Tile tile) {
+    return tile == null;
   }
 
   void drawOnTop() {
@@ -46,48 +86,51 @@ class TileBookshelve extends Tile {
 
 class TileBed extends Tile {
 
-  TileBed.Head(int positionX, int positionY, [Tile feetTile]) : super(positionX, positionY) {
-    if (feetTile != null) {
-      partnerTile = feetTile;
-      partnerTile.partnerTile = this;
+  TileBed(int positionX, int positionY, TileGroup group, int part) : super(positionX, positionY, group) {
+    group.add(this);
+    if (part == 1) {
+      image = Resources.imgBedHead;
+    } else if (part == 2) {
+      image = Resources.imgBedFeet;
     }
-    image = Resources.imgBedHead;
   }
 
-  TileBed.Feet(int positionX, int positionY, [Tile headTile]) : super(positionX, positionY) {
-    if (headTile != null) {
-      partnerTile = headTile;
-      partnerTile.partnerTile = this;
-    }
-    image = Resources.imgBedFeet;
+  bool canMoveTo(Tile tile) {
+    return tile == null;
   }
 
-  void move(int targetX, int targetY) {
-    int partnerTargetX = targetX - positionX + partnerTile.positionX;
-    int partnerTargetY = targetY - positionY + partnerTile.positionY;
-    print('$targetX, $targetY,    $partnerTargetX, $partnerTargetY');
-    if ((room.tiles[targetX][targetY] == null || room.tiles[targetX][targetY] == partnerTile) &&
-        (room.tiles[partnerTargetX][partnerTargetY] == null || room.tiles[partnerTargetX][partnerTargetY] == this)) {
-      if (targetX == partnerTile.positionX && targetY == partnerTile.positionY) {
-        room.tiles[partnerTile.positionX][partnerTile.positionY] = null;
-        room.tiles[partnerTargetX][partnerTargetY] = partnerTile;
-        partnerTile.positionX = partnerTargetX;
-        partnerTile.positionY = partnerTargetY;
-        room.tiles[positionX][positionY] = null;
-        room.tiles[targetX][targetY] = this;
-        positionX = targetX;
-        positionY = targetY;
-      } else {
-        room.tiles[positionX][positionY] = null;
-        room.tiles[targetX][targetY] = this;
-        positionX = targetX;
-        positionY = targetY;
-        room.tiles[partnerTile.positionX][partnerTile.positionY] = null;
-        room.tiles[partnerTargetX][partnerTargetY] = partnerTile;
-        partnerTile.positionX = partnerTargetX;
-        partnerTile.positionY = partnerTargetY;
-      }
-    }
+  void drawOnTop() {
+
+  }
+
+}
+
+class TileDish extends Tile {
+
+  TileDish(int positionX, int positionY) : super(positionX, positionY) {
+    group = new TileGroup()..add(this);
+    image = Resources.imgDishBefore;
+  }
+
+  bool canMoveTo(Tile tile) {
+    return tile == null;
+  }
+
+  void drawOnTop() {
+
+  }
+
+}
+
+class TileToilet extends Tile {
+
+  TileToilet(int positionX, int positionY) : super(positionX, positionY) {
+    group = new TileGroup()..add(this);
+    image = Resources.imgToilet;
+  }
+
+  bool canMoveTo(Tile tile) {
+    return false;
   }
 
   void drawOnTop() {
