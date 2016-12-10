@@ -18,6 +18,8 @@ class Room {
       }
     }
     tiles[1][2] = new TileBookshelve(1, 2);
+    tiles[3][1] = new TileBed.Head(3, 1);
+    tiles[3][2] = new TileBed.Feet(3, 2, tiles[3][1]);
     highlightX = 0;
     highlightY = 0;
   }
@@ -41,7 +43,8 @@ class Room {
       }
     } else {
       if (Input.mouseDown) {
-        if (((highlightX - selectedTile.positionX).abs() == 1) != ((highlightY - selectedTile.positionY).abs() == 1)) {
+        if (((highlightX - selectedTile.positionX).abs() == 0 && (highlightY - selectedTile.positionY).abs() == 1) ||
+            ((highlightX - selectedTile.positionX).abs() == 1 && (highlightY - selectedTile.positionY).abs() == 0)) {
           selectedTile.move(highlightX, highlightY);
         }
       } else {
@@ -55,7 +58,7 @@ class Room {
       for (int j = 0; j < HEIGHT; j++) {
         bufferContext.drawImage(Resources.imgFloor, i * Tile.WIDTH, j * Tile.HEIGHT);
         if (tiles[i][j] != null) {
-          bufferContext.drawImage(tiles[i][j].image, i * Tile.WIDTH, j * Tile.HEIGHT);
+          tiles[i][j].draw();
         }
       }
     }
