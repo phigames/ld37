@@ -80,6 +80,7 @@ class Room {
         }
       } else {
         selectedTile = null;
+        // check for solved task
       }
     }
   }
