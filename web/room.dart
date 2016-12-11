@@ -51,6 +51,8 @@ class Room {
     tiles[3][3] = new TileDesk(3, 3, desk, 2);
     tiles[5][3] = new TileBookshelve(5, 3);
     tiles[1][4] = new TilePhone(1, 4);
+    tiles[5][2] = new TileWeed(5, 2);
+    tiles[2][1] = new TilePlant(2,1);
     highlightX = 0;
     highlightY = 0;
     taskHandler = new TaskHandler();
