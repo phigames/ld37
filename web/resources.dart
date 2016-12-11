@@ -10,7 +10,8 @@ class Resources {
   static ImageElement imgBedHead;
   static ImageElement imgBedFeet;
   static ImageElement imgDeskLeft;
-  static ImageElement imgDeskRight;
+  static ImageElement imgDeskRightBefore;
+  static ImageElement imgDeskRightAfter;
   static ImageElement imgCupboardLeft;
   static ImageElement imgCupboardRight;
   static ImageElement imgDishBefore;
@@ -27,6 +28,8 @@ class Resources {
   static ImageElement imgWallEdge2;
   static ImageElement imgWallEdge3;
   static ImageElement imgWallEdge4;
+  static ImageElement imgWallToToiletLeft;
+  static ImageElement imgWallToToiletRight;
   static ImageElement imgToilet;
   static ImageElement imgSocket;
   static ImageElement imgPhone;
@@ -41,7 +44,8 @@ class Resources {
     imgBedHead = new ImageElement(src: 'res/bedHead.png');
     imgBedFeet = new ImageElement(src: 'res/bedFeet.png');
     imgDeskLeft = new ImageElement(src: 'res/deskLeft.png');
-    imgDeskRight = new ImageElement(src: 'res/deskRight.png');
+    imgDeskRightBefore = new ImageElement(src: 'res/deskRightBefore.png');
+    imgDeskRightAfter = new ImageElement(src: 'res/deskRightAfter.png');
     imgCupboardLeft = new ImageElement(src: 'res/cupboardLeft.png');
     imgCupboardRight = new ImageElement(src: 'res/cupboardRight.png');
     imgDishBefore = new ImageElement(src: 'res/dishBefore.png');
@@ -58,6 +62,8 @@ class Resources {
     imgWallEdge2 = new ImageElement(src: 'res/wallEdge2.png');
     imgWallEdge3 = new ImageElement(src: 'res/wallEdge3.png');
     imgWallEdge4 = new ImageElement(src: 'res/wallEdge4.png');
+    imgWallToToiletLeft = new ImageElement(src: 'res/wallToToiletLeft.png');
+    imgWallToToiletRight = new ImageElement(src: 'res/wallToToiletRight.png');
     imgToilet = new ImageElement(src: 'res/toilet.png');
     imgSocket = new ImageElement(src: 'res/socket.png');
     imgPhone = new ImageElement(src: 'res/phone.png');
