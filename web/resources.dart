@@ -19,6 +19,7 @@ class Resources {
   static ImageElement imgWeedBefore;
   static ImageElement imgWeedAfter;
   static ImageElement imgPlant;
+  static ImageElement imgTV;
   static ImageElement imgDoor;
   static ImageElement imgWallLeft;
   static ImageElement imgWallTop;
@@ -34,6 +35,7 @@ class Resources {
   static ImageElement imgSocket;
   static ImageElement imgPhone;
   static ImageElement imgMessage;
+  static Map<String, AudioElement> sounds;
 
   static void load() {
     //spritesheet = new ImageElement(src: 'res/spritesheet.png');
@@ -53,6 +55,7 @@ class Resources {
     imgWeedBefore = new ImageElement(src: 'res/weedBefore.png');
     imgWeedAfter = new ImageElement(src: 'res/weedAfter.png');
     imgPlant = new ImageElement(src: 'res/plant.png');
+    imgTV = new ImageElement(src: 'res/tv.png');
     imgDoor = new ImageElement(src: 'res/door.png');
     imgWallLeft = new ImageElement(src: 'res/wallSimpleLeft.png');
     imgWallTop = new ImageElement(src: 'res/wallSimpleTop.png');
@@ -68,6 +71,17 @@ class Resources {
     imgSocket = new ImageElement(src: 'res/socket.png');
     imgPhone = new ImageElement(src: 'res/phone.png');
     imgMessage = new ImageElement(src: 'res/message.png');
+    sounds = new Map<String, AudioElement>();
+    sounds['scribble'] = new AudioElement('res/scribble.wav');
+    sounds['cough'] = new AudioElement('res/cough.wav');
+    sounds['doorbell'] = new AudioElement('res/doorbell.wav');
+    sounds['water'] = new AudioElement('res/water.wav');
+    sounds['crisp'] = new AudioElement('res/crisp.wav');
+    sounds['tv'] = new AudioElement('res/tv.wav');
+    sounds['ringtone'] = new AudioElement('res/ringtone.wav');
+    sounds['momPhone'] = new AudioElement('res/momPhone.wav');
+    sounds['momHappy'] = new AudioElement('res/momHappy.wav');
+    sounds['momAngry'] = new AudioElement('res/momAngry.wav');
   }
 
 }

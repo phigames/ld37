@@ -41,8 +41,8 @@ class Room {
     TileGroup cupboard = new TileGroup();
     tiles[4][1] = new TileCupboard(4, 1, cupboard, 1);
     tiles[4][2] = new TileCupboard(4, 2, cupboard, 2);
-    tiles[5][1] = new TileDish(5, 1);
-    tiles[5][2] = new TileWeed(5, 2);
+    tiles[5][1] = new TileDish(5, 1, false);
+    tiles[5][2] = new TileWeed(5, 2, false);
     tiles[6][2] = new TileToilet(6, 2);
     tiles[0][3] = new TileSocket(0, 3);
     tiles[1][3] = new TileChair(1, 3);
@@ -52,7 +52,6 @@ class Room {
     tiles[4][3] = new TileArmchair(4, 3);
     tiles[5][3] = new TileBookshelve(5, 3);
     tiles[1][4] = new TilePhone(1, 4);
-    tiles[2][1] = new TilePlant(2,1);
     highlightX = 0;
     highlightY = 0;
     taskHandler = new TaskHandler();

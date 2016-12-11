@@ -18,14 +18,15 @@ class TaskHandler {
   TaskHandler() {
     task = 0;
     taskState = 0;
-    messageTexts = [ [ 'Do your', 'homework!' ],
-                     [ 'Time to', 'roll a spliff.' ],
-                     [ 'Sounds like someone\'s at the door.' ],
-                     [ 'Take this plant. Don\'t forget to water it. Love, mom.' ],
-                     [ '*stomach grumble*' ],
-                     [ 'Let\'s see what\'s on TV.' ],
+    messageTexts = [ [ 'Ugh, so much', 'homework!', '', 'Where\'s', 'my chair?' ],
+                     [ 'Finally done.', 'Time to roll', 'a spliff.' ],
+                     [ 'Sounds like', 'someone\'s at', 'the door.' ],
+                     [ '"I\'m sure this', 'Ficus benjamini', 'will make your', 'new room feel', 'right at home.', 'Don\'t forget', 'to water it!', 'Love, Mom"' ],
+                     [ '*stomach', 'rumbling*', 'I think I have', 'some chicken', 'leftover from', 'last week...', 'Let me set', 'the table.' ],
+                     [ 'Oh no,', 'another gift', 'from Mom?' ],
+                     [ '"Hey-ho nephew!', 'I heard you\'ve', 'moved, so I', 'thought you', 'could use this', 'TV I found', 'in my basement.', '- Uncle John"' ],
                      null,
-                     [ 'See you in 20 seconds. Better tidy up your room first.' ] ];
+                     [ '"Sweetheart,', 'I just happen', 'to be in town.', 'I\'ll meet you', 'in 20 seconds!"', '', 'Shit, better', 'tidy up a bit.' ] ];
     waitTime = 0;
   }
 
@@ -37,7 +38,8 @@ class TaskHandler {
             taskState = 2;
             tempTile = room.tiles[i][j];
             waitTime = 2000;
-            //play SFX
+            Resources.sounds['scribble'].currentTime = 0;
+            Resources.sounds['scribble'].play();
           }
         }
       }
@@ -48,7 +50,8 @@ class TaskHandler {
             taskState = 2;
             tempTile = room.tiles[i][j];
             waitTime = 2000;
-            //play SFX
+            Resources.sounds['cough'].currentTime = 0;
+            Resources.sounds['cough'].play();
           }
         }
       }
@@ -57,13 +60,58 @@ class TaskHandler {
         taskState = 2;
         tempTile = room.tiles[2][1];
         waitTime = 1000;
-        //play SFX
+      }
+    } else if (task == 3) {
+      if ((room.tiles[6][2] as TileToilet).plantMode == 1) {
+        taskState = 2;
+        tempTile = room.tiles[6][2];
+        waitTime = 1000;
+        Resources.sounds['water'].currentTime = 0;
+        Resources.sounds['water'].play();
+      }
+    } else if (task == 4) {
+      for (int i = 0; i < Room.WIDTH; i++) {
+        for (int j = 0; j < Room.HEIGHT; j++) {
+          if (room.tiles[i][j] is TileDesk && (room.tiles[i][j] as TileDesk).part == 1 && (room.tiles[i][j] as TileDesk).dishMode == 1 && room.tiles[i][j - 1] is TileChair) {
+            taskState = 2;
+            tempTile = room.tiles[i][j];
+            waitTime = 2000;
+            Resources.sounds['crisp'].currentTime = 0;
+            Resources.sounds['crisp'].play();
+          }
+        }
+      }
+    } else if (task == 5) {
+      if (room.tiles[2][1] == null) {
+        taskState = 2;
+        tempTile = room.tiles[2][1];
+        waitTime = 1000;
+      }
+    } else if (task == 6) {
+      if (room.tiles[1][3] is TileTV && room.tiles[2][3] is TileArmchair) {
+        taskState = 2;
+        tempTile = room.tiles[1][3];
+        waitTime = 2000;
+        Resources.sounds['tv'].currentTime = 0;
+        Resources.sounds['tv'].play();
+      }
+    } else if (task == 7) {
+      if (room.tiles[1][3] == null) {
+        taskState = 2;
+        tempTile = room.tiles[1][3];
+        waitTime = 500;
+        Resources.sounds['ringtone'].pause();
+        Resources.sounds['momPhone'].currentTime = 0;
+        Resources.sounds['momPhone'].play();
       }
     }
   }
 
   void update(num deltaTime) {
     if (taskState == 0) {
+      if (messageTexts[task] == null) {
+        taskState = 1;
+      }
       // message is being shown
       if (Input.mouseDown &&
           Input.mouseX > OK_X && Input.mouseX < OK_X + OK_WIDTH &&
@@ -71,38 +119,53 @@ class TaskHandler {
         taskState = 1;
       }
     } else if (taskState == 2) {
+      waitTime -= deltaTime;
       // task is done, play animation and go to next task
       if (task == 0) {
-        if (waitTime <= 1000) {
+        if (waitTime <= 700) {
           (tempTile as TileDesk).homeworkDone = true;
         }
       } else if (task == 1) {
         if (waitTime <= 1000) {
           (tempTile as TileBed).weedMode = 2;
         }
+        if (waitTime <= 0) {
+          Resources.sounds['doorbell'].currentTime = 0;
+          Resources.sounds['doorbell'].play();
+        }
+      } else if (task == 2) {
+        if (waitTime <= 1000 && room.tiles[2][1] == null) {
+          room.tiles[2][1] = new TilePlant(2, 1);
+        }
       } else if (task == 3) {
 
       } else if (task == 4) {
-
+        if (waitTime <= 1800) {
+          (tempTile as TileDesk).dishMode = 2;
+        }
+        if (waitTime <= 0) {
+          Resources.sounds['doorbell'].currentTime = 0;
+          Resources.sounds['doorbell'].play();
+        }
       } else if (task == 5) {
-
+        if (waitTime <= 1000 && room.tiles[2][1] == null) {
+          room.tiles[2][1] = new TileTV(2, 1);
+        }
       } else if (task == 6) {
-
+        Resources.sounds['ringtone'].currentTime = 0;
+        Resources.sounds['ringtone'].loop = true;
+        Resources.sounds['ringtone'].play();
       }
-      waitTime -= deltaTime;
       if (waitTime <= 0) {
         task++;
         taskState = 0;
-        // animation is done, start next task
-        if (task == 2) {
-
-        }
+        check();
       }
     }
   }
 
   void draw() {
-    if (taskState == 0) {
+    if (taskState == 0 && messageTexts[task] != null) {
       bufferContext.drawImage(Resources.imgMessage, 225, 75);
       if (Input.mouseX > OK_X && Input.mouseX < OK_X + OK_WIDTH &&
           Input.mouseY > OK_Y && Input.mouseY < OK_Y + OK_HEIGHT) {
