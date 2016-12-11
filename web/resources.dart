@@ -79,6 +79,7 @@ class Resources {
     sounds['crisp'] = new AudioElement('res/crisp.wav');
     sounds['tv'] = new AudioElement('res/tv.wav');
     sounds['ringtone'] = new AudioElement('res/ringtone.wav');
+    sounds['ticking'] = new AudioElement('res/ticking.wav');
     sounds['momPhone'] = new AudioElement('res/momPhone.wav');
     sounds['momHappy'] = new AudioElement('res/momHappy.wav');
     sounds['momAngry'] = new AudioElement('res/momAngry.wav');
