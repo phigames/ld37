@@ -19,8 +19,8 @@ class Input {
   }
 
   static void onMouseMove(MouseEvent event) {
-    mouseX = event.layer.x;
-    mouseY = event.layer.y;
+    mouseX = event.page.x - gameElement.offsetLeft - canvas.offsetLeft;
+    mouseY = event.page.y - gameElement.offsetTop - canvas.offsetTop;
   }
 
 }

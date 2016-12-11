@@ -9,12 +9,14 @@ part 'taskhandler.dart';
 part 'input.dart';
 part 'resources.dart';
 
+DivElement gameElement;
 CanvasElement canvas, buffer;
 CanvasRenderingContext2D canvasContext, bufferContext;
 num timeElapsed;
 Room room;
 
 void main() {
+  gameElement = querySelector('#game');
   canvas = querySelector('#canvas');
   buffer = new CanvasElement(width: canvas.width, height: canvas.height);
   canvasContext = canvas.context2D;
