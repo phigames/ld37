@@ -210,6 +210,7 @@ class TileDish extends Tile {
     if (targetTile is TileDesk && targetTile.part == 1) {
       room.tiles[positionX][positionY] = null;
       targetTile.dishMode = 1;
+      room.selectedTile = null;
       return false;
     }
     return targetTile == null;
