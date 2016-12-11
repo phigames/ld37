@@ -11,20 +11,21 @@ class TaskHandler {
 
   int task;
   int taskState;
-  List<String> messageText;
+  List<List<String>> messageTexts;
   Tile tempTile;
   num waitTime;
 
   TaskHandler() {
     task = 0;
     taskState = 0;
-    messageText = [ 'Do your homework!',
-                    'Time to roll a spliff.',
-                    'Take this plant. Don\'t forget to water it. Love, mom.',
-                    '*stomach grumble*',
-                    'Let\'s see what\'s on TV.',
-                    null,
-                    'See you in 20 seconds. Better tidy up your room first.' ];
+    messageTexts = [ [ 'Do your', 'homework!' ],
+                     [ 'Time to', 'roll a spliff.' ],
+                     [ 'Sounds like someone\'s at the door.' ],
+                     [ 'Take this plant. Don\'t forget to water it. Love, mom.' ],
+                     [ '*stomach grumble*' ],
+                     [ 'Let\'s see what\'s on TV.' ],
+                     null,
+                     [ 'See you in 20 seconds. Better tidy up your room first.' ] ];
     waitTime = 0;
   }
 
@@ -36,8 +37,27 @@ class TaskHandler {
             taskState = 2;
             tempTile = room.tiles[i][j];
             waitTime = 2000;
+            //play SFX
           }
         }
+      }
+    } else if (task == 1) {
+      for (int i = 0; i < Room.WIDTH; i++) {
+        for (int j = 0; j < Room.HEIGHT; j++) {
+          if (room.tiles[i][j] is TileBed && (room.tiles[i][j] as TileBed).weedMode == 1) {
+            taskState = 2;
+            tempTile = room.tiles[i][j];
+            waitTime = 2000;
+            //play SFX
+          }
+        }
+      }
+    } else if (task == 2) {
+      if (room.tiles[2][1] == null) {
+        taskState = 2;
+        tempTile = room.tiles[2][1];
+        waitTime = 1000;
+        //play SFX
       }
     }
   }
@@ -53,15 +73,15 @@ class TaskHandler {
     } else if (taskState == 2) {
       // task is done, play animation and go to next task
       if (task == 0) {
-        //play SFX
-        (tempTile as TileDesk).homeworkDone = true;
+        if (waitTime <= 1000) {
+          (tempTile as TileDesk).homeworkDone = true;
+        }
       } else if (task == 1) {
-        //play SFX
-        //(tempTile as TileBed).weedType = 2;
-      } else if (task == 2) {
-
+        if (waitTime <= 1000) {
+          (tempTile as TileBed).weedMode = 2;
+        }
       } else if (task == 3) {
-
+        if ()
       } else if (task == 4) {
 
       } else if (task == 5) {
@@ -69,7 +89,7 @@ class TaskHandler {
       } else if (task == 6) {
 
       }
-      waitTime--;
+      waitTime -= deltaTime;
       if (waitTime <= 0) {
         task++;
         taskState = 0;
@@ -92,9 +112,11 @@ class TaskHandler {
         bufferContext.globalAlpha = 1;
       }
       bufferContext.fillStyle = '#000000';
-      bufferContext.font = '30px Space Mono';
+      bufferContext.font = '25px Space Mono';
       bufferContext.textAlign = 'center';
-      bufferContext.fillText(messageText[task], 350, 250);
+      for (int i = 0; i < messageTexts[task].length; i++) {
+        bufferContext.fillText(messageTexts[task][i], 350, 160 + i * 30);
+      }
     } else if (taskState == 2) {
       if (task == 1) {
         // smoke animation
