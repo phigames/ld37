@@ -142,6 +142,7 @@ class TileBed extends Tile {
 }
 
 class TileDesk extends Tile {
+
   int part;
   int dishMode = 0;
   bool homeworkDone;
@@ -155,11 +156,12 @@ class TileDesk extends Tile {
     }
   }
 
-  bool canMoveTo(int positionX, int positionY) {
-    Tile targetTile = room.tiles[positionX][positionY];
-    if (dishMode != 0 && part == 1 && targetTile == null) {
+  bool canMoveTo(int targetX, int targetY) {
+    Tile targetTile = room.tiles[targetX][targetY];
+    if (dishMode != 0 && part == 1 && targetTile == null && room.selectedTile == this) {
       dishMode = 0;
-      room.tiles[targetTile.positionX][targetTile.positionY] = new TileDish(targetTile.positionX, targetTile.positionY);
+      room.tiles[targetX][targetY] = new TileDish(targetX, targetY);
+      room.selectedTile = room.tiles[targetX][targetY];
       return false;
     }
     return targetTile == null;
@@ -203,8 +205,8 @@ class TileDish extends Tile {
     image = Resources.imgDishBefore;
   }
 
-  bool canMoveTo(int positionX, int positionY) {
-    Tile targetTile = room.tiles[positionX][positionY];
+  bool canMoveTo(int targetX, int targetY) {
+    Tile targetTile = room.tiles[targetX][targetY];
     if (targetTile is TileDesk && targetTile.part == 1) {
       room.tiles[positionX][positionY] = null;
       targetTile.dishMode = 1;
@@ -245,7 +247,7 @@ class TileDoor extends Tile {
 
 
   bool canMoveTo(int positionX, int positionY) {
-    return room.tiles[positionX][positionY] == null;
+    return false;
   }
 
   void drawOnTop() {
@@ -287,7 +289,7 @@ class TileWall extends Tile {
   }
 
   bool canMoveTo(int positionX, int positionY) {
-    return room.tiles[positionX][positionY] == null;
+    return false;
   }
 
   void drawOnTop() {
@@ -304,7 +306,7 @@ class TileToilet extends Tile {
   }
 
   bool canMoveTo(int positionX, int positionY) {
-    return room.tiles[positionX][positionY] == null;
+    return false;
   }
 
   void drawOnTop() {
@@ -321,7 +323,7 @@ class TileSocket extends Tile {
   }
 
   bool canMoveTo(int positionX, int positionY) {
-    return room.tiles[positionX][positionY] == null;
+    return false;
   }
 
   void drawOnTop() {
@@ -338,7 +340,7 @@ class TilePhone extends Tile {
   }
 
   bool canMoveTo(int positionX, int positionY) {
-    return room.tiles[positionX][positionY] == null;
+    return false;
   }
 
   void drawOnTop() {

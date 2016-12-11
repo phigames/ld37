@@ -32,7 +32,7 @@ class TaskHandler {
     if (task == 0) {
       for (int i = 0; i < Room.WIDTH; i++) {
         for (int j = 0; j < Room.HEIGHT; j++) {
-          if (room.tiles[i][j] is TileDesk/* && room.tiles[i][j].part == 2 */ && room.tiles[i][j - 1] is TileChair) {
+          if (room.tiles[i][j] is TileDesk && (room.tiles[i][j] as TileDesk).part == 2 && room.tiles[i][j - 1] is TileChair) {
             taskState = 2;
             tempTile = room.tiles[i][j];
             waitTime = 2000;
@@ -54,7 +54,7 @@ class TaskHandler {
       // task is done, play animation and go to next task
       if (task == 0) {
         //play SFX
-        //(tempTile as TileDesk).homeworkDone = true;
+        (tempTile as TileDesk).homeworkDone = true;
       } else if (task == 1) {
         //play SFX
         //(tempTile as TileBed).weedType = 2;

@@ -8,6 +8,7 @@ class Room {
   List<List<Tile>> tiles;
   int highlightX, highlightY;
   Tile selectedTile;
+  TaskHandler taskHandler;
 
   Room() {
     tiles = new List<List<Tile>>();
@@ -52,35 +53,39 @@ class Room {
     tiles[1][4] = new TilePhone(1, 4);
     highlightX = 0;
     highlightY = 0;
+    taskHandler = new TaskHandler();
   }
 
   void update(num deltaTime) {
-    highlightX = Input.mouseX ~/ Tile.WIDTH;
-    if (highlightX < 0) {
-      highlightX = 0;
-    } else if (highlightX >= Room.WIDTH) {
-      highlightX = Room.WIDTH - 1;
-    }
-    highlightY = Input.mouseY ~/ Tile.HEIGHT;
-    if (highlightY < 0) {
-      highlightY = 0;
-    } else if (highlightY >= Room.HEIGHT) {
-      highlightY = Room.HEIGHT - 1;
-    }
-    if (selectedTile == null) {
-      if (Input.mouseDown) {
-        selectedTile = tiles[highlightX][highlightY];
+    taskHandler.update(deltaTime);
+    if (taskHandler.taskState == 1) {
+      highlightX = Input.mouseX ~/ Tile.WIDTH;
+      if (highlightX < 0) {
+        highlightX = 0;
+      } else if (highlightX >= Room.WIDTH) {
+        highlightX = Room.WIDTH - 1;
       }
-    } else {
-      if (Input.mouseDown) {
-        int moveX = highlightX - selectedTile.positionX;
-        int moveY = highlightY - selectedTile.positionY;
-        if ((moveX.abs() == 1 && moveY.abs() == 0) || (moveX.abs() == 0 && moveY.abs() == 1)) {
-          selectedTile.move(moveX, moveY);
+      highlightY = Input.mouseY ~/ Tile.HEIGHT;
+      if (highlightY < 0) {
+        highlightY = 0;
+      } else if (highlightY >= Room.HEIGHT) {
+        highlightY = Room.HEIGHT - 1;
+      }
+      if (selectedTile == null) {
+        if (Input.mouseDown) {
+          selectedTile = tiles[highlightX][highlightY];
         }
       } else {
-        selectedTile = null;
-        // check for solved task
+        if (Input.mouseDown) {
+          int moveX = highlightX - selectedTile.positionX;
+          int moveY = highlightY - selectedTile.positionY;
+          if ((moveX.abs() == 1 && moveY.abs() == 0) || (moveX.abs() == 0 && moveY.abs() == 1)) {
+            selectedTile.move(moveX, moveY);
+          }
+        } else {
+          selectedTile = null;
+          taskHandler.check();
+        }
       }
     }
   }
@@ -98,6 +103,7 @@ class Room {
     bufferContext.fillStyle = '#FFFFFF';
     bufferContext.fillRect(highlightX * Tile.WIDTH, highlightY * Tile.HEIGHT, Tile.WIDTH, Tile.HEIGHT);
     bufferContext.globalAlpha = 1;
+    taskHandler.draw();
   }
 
 }
