@@ -5,6 +5,7 @@ import 'dart:math';
 
 part 'room.dart';
 part 'tile.dart';
+part 'taskhandler.dart';
 part 'input.dart';
 part 'resources.dart';
 

@@ -15,6 +15,8 @@ class Resources {
   static ImageElement imgCupboardRight;
   static ImageElement imgDishBefore;
   static ImageElement imgDishAfter;
+  static ImageElement imgWeedBefore;
+  static ImageElement imgWeedAfter;
   static ImageElement imgPlant;
   static ImageElement imgDoor;
   static ImageElement imgWallLeft;
@@ -28,6 +30,7 @@ class Resources {
   static ImageElement imgToilet;
   static ImageElement imgSocket;
   static ImageElement imgPhone;
+  static ImageElement imgMessage;
 
   static void load() {
     //spritesheet = new ImageElement(src: 'res/spritesheet.png');
@@ -43,6 +46,8 @@ class Resources {
     imgCupboardRight = new ImageElement(src: 'res/cupboardRight.png');
     imgDishBefore = new ImageElement(src: 'res/dishBefore.png');
     imgDishAfter = new ImageElement(src: 'res/dishAfter.png');
+    imgWeedBefore = new ImageElement(src: 'res/weedBefore.png');
+    imgWeedAfter = new ImageElement(src: 'res/weedAfter.png');
     imgPlant = new ImageElement(src: 'res/plant.png');
     imgDoor = new ImageElement(src: 'res/door.png');
     imgWallLeft = new ImageElement(src: 'res/wallSimpleLeft.png');
@@ -56,6 +61,7 @@ class Resources {
     imgToilet = new ImageElement(src: 'res/toilet.png');
     imgSocket = new ImageElement(src: 'res/socket.png');
     imgPhone = new ImageElement(src: 'res/phone.png');
+    imgMessage = new ImageElement(src: 'res/message.png');
   }
 
 }
