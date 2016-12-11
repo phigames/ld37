@@ -166,8 +166,9 @@ class TileDesk extends Tile {
     if (part == 1) {
       image = Resources.imgDeskLeft;
     } else if (part == 2) {
-      image = Resources.imgDeskRight;
+      image = Resources.imgDeskRightBefore;
     }
+    homeworkDone = false;
   }
 
   bool canMoveTo(int targetX, int targetY) {
@@ -182,6 +183,9 @@ class TileDesk extends Tile {
   }
 
   void drawOnTop() {
+    if (part == 2 && homeworkDone) {
+      bufferContext.drawImage(Resources.imgDeskRightAfter, positionX * Tile.WIDTH, positionY * Tile.HEIGHT);
+    }
     if (dishMode == 1) {
       bufferContext.drawImage(Resources.imgDishBefore, positionX * Tile.WIDTH, positionY * Tile.HEIGHT);
     } else if (dishMode == 2) {
@@ -330,6 +334,12 @@ class TileWall extends Tile {
         break;
       case 8:
         image = Resources.imgWallEdge4;
+        break;
+      case 9:
+        image = Resources.imgWallToToiletLeft;
+        break;
+      case 10:
+        image = Resources.imgWallToToiletRight;
         break;
     }
   }

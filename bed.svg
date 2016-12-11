@@ -14,7 +14,7 @@
    viewBox="0 0 744.09448819 1052.3622047"
    id="svg5066"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="bed.svg"
    inkscape:export-filename="C:\Users\Sofie\IdeaProjects\ld37\bed.png"
    inkscape:export-xdpi="90"
@@ -28,16 +28,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="123.01292"
-     inkscape:cy="794.16752"
+     inkscape:zoom="1"
+     inkscape:cx="246.15289"
+     inkscape:cy="-14.269855"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1280"
-     inkscape:window-height="657"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
      inkscape:window-x="-8"
-     inkscape:window-y="1192"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
@@ -51,6 +51,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -59,38 +60,38 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:4.99999952;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#f2f2f2;fill-opacity:1;stroke:#000000;stroke-width:4.99999952;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect5616"
        width="195"
        height="95"
-       x="24.250002"
-       y="220.05151"
+       x="2.4999948"
+       y="954.86218"
        rx="5"
        inkscape:export-xdpi="81.818184"
        inkscape:export-ydpi="81.818184"
        ry="5" />
     <rect
-       style="fill:#a00000;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:3.5999999;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#003380;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:3.59999989999999980;stroke-opacity:1;stroke-dasharray:none"
        id="rect5624"
-       width="29.250002"
-       height="57.000008"
-       x="37.168747"
-       y="238.81404"
+       width="32"
+       height="72"
+       x="13.999996"
+       y="966.36218"
        rx="5"
        inkscape:export-xdpi="81.818184"
        inkscape:export-ydpi="81.818184"
        ry="5" />
     <rect
-       style="fill:#a00000;fill-opacity:1;stroke:#000000;stroke-width:3.15417266;stroke-linecap:round;stroke-miterlimit:3.5999999;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#003380;fill-opacity:1;stroke:#000000;stroke-width:3.15399981000000020;stroke-linecap:round;stroke-miterlimit:3.59999989999999980;stroke-opacity:1;stroke-dasharray:none"
        id="rect5626"
-       width="130.00256"
-       height="56.707077"
-       x="76.319069"
-       y="239.19801"
-       rx="5.5556636"
+       width="137.68141"
+       height="92.846001"
+       x="58.741581"
+       y="955.93921"
+       rx="5"
        inkscape:export-xdpi="81.818184"
        inkscape:export-ydpi="81.818184"
-       ry="5.5556641" />
+       ry="5" />
   </g>
   <g
      inkscape:groupmode="layer"
