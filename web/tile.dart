@@ -122,7 +122,10 @@ class TileBookshelve extends Tile {
 
 class TileBed extends Tile {
 
-  TileBed(int positionX, int positionY, TileGroup group, int part) : super(positionX, positionY, group) {
+  int part;
+  int weedMode = 0;
+
+  TileBed(int positionX, int positionY, TileGroup group, this.part) : super(positionX, positionY, group) {
     group.add(this);
     if (part == 1) {
       image = Resources.imgBedHead;
@@ -131,12 +134,23 @@ class TileBed extends Tile {
     }
   }
 
-  bool canMoveTo(int positionX, int positionY) {
-    return room.tiles[positionX][positionY] == null;
+  bool canMoveTo(int targetX, int targetY) {
+    Tile targetTile = room.tiles[targetX][targetY];
+    if (weedMode != 0 && targetTile == null && room.selectedTile == this) {
+      weedMode = 0;
+      room.tiles[targetX][targetY] = new TileWeed(targetX, targetY);
+      room.selectedTile = room.tiles[targetX][targetY];
+      return false;
+    }
+    return targetTile == null;
   }
 
   void drawOnTop() {
-
+    if (weedMode == 1) {
+      bufferContext.drawImage(Resources.imgWeedBefore, positionX * Tile.WIDTH, positionY * Tile.HEIGHT);
+    } else if (weedMode == 2) {
+      bufferContext.drawImage(Resources.imgWeedAfter, positionX * Tile.WIDTH, positionY * Tile.HEIGHT);
+    }
   }
 
 }
@@ -222,6 +236,30 @@ class TileDish extends Tile {
 
 }
 
+class TileWeed extends Tile {
+
+  TileWeed(int positionX, int positionY) : super(positionX, positionY) {
+    group = new TileGroup()..add(this);
+    image = Resources.imgWeedBefore;
+  }
+
+  bool canMoveTo(int targetX, int targetY) {
+    Tile targetTile = room.tiles[targetX][targetY];
+    if (targetTile is TileBed) {
+      room.tiles[positionX][positionY] = null;
+      targetTile.weedMode = 1;
+      room.selectedTile = null;
+      return false;
+    }
+    return targetTile == null;
+  }
+
+  void drawOnTop() {
+
+  }
+
+}
+
 class TilePlant extends Tile {
 
   TilePlant(int positionX, int positionY) : super(positionX, positionY) {
@@ -229,8 +267,15 @@ class TilePlant extends Tile {
     image = Resources.imgPlant;
   }
 
-  bool canMoveTo(int positionX, int positionY) {
-    return room.tiles[positionX][positionY] == null;
+  bool canMoveTo(int targetX, int targetY) {
+    Tile targetTile = room.tiles[targetX][targetY];
+    if (targetTile is TileToilet) {
+      room.tiles[positionX][positionY] = null;
+      targetTile.plantMode = 1;
+      room.selectedTile = null;
+      return false;
+    }
+    return targetTile == null;
   }
 
   void drawOnTop() {
@@ -300,20 +345,29 @@ class TileWall extends Tile {
 }
 
 class TileToilet extends Tile {
+  int plantMode = 0; // 0: no plant on toilet, 1: plant on toilet
 
   TileToilet(int positionX, int positionY) : super(positionX, positionY) {
     group = new TileGroup()..add(this);
     image = Resources.imgToilet;
   }
 
-  bool canMoveTo(int positionX, int positionY) {
+  bool canMoveTo(int targetX, int targetY) {
+    Tile targetTile = room.tiles[targetX][targetY];
+    if (plantMode != 0 && targetTile == null && room.selectedTile == this) {
+      plantMode = 0;
+      room.tiles[targetX][targetY] = new TilePlant(targetX, targetY);
+      room.selectedTile = room.tiles[targetX][targetY];
+      return false;
+    }
     return false;
   }
 
   void drawOnTop() {
-
+    if (plantMode == 1) {
+      bufferContext.drawImage(Resources.imgPlant, positionX * Tile.WIDTH, positionY * Tile.HEIGHT);
+    }
   }
-
 }
 
 class TileSocket extends Tile {
