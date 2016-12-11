@@ -162,6 +162,27 @@ class TileDesk extends Tile {
 
 }
 
+class TileCupboard extends Tile {
+
+  TileCupboard(int positionX, int positionY, TileGroup group, int part) : super(positionX, positionY, group) {
+    group.add(this);
+    if (part == 1) {
+      image = Resources.imgCupboardLeft;
+    } else if (part == 2) {
+      image = Resources.imgCupboardRight;
+    }
+  }
+
+  bool canMoveTo(Tile tile) {
+    return tile == null;
+  }
+
+  void drawOnTop() {
+
+  }
+
+}
+
 class TileDish extends Tile {
 
   TileDish(int positionX, int positionY) : super(positionX, positionY) {
@@ -213,11 +234,87 @@ class TileDoor extends Tile {
 
 }
 
+class TileWall extends Tile {
+
+  TileWall(int positionX, int positionY, int type) : super(positionX, positionY) {
+    group = new TileGroup()..add(this);
+    switch (type) {
+      case 1:
+        image = Resources.imgWallLeft;
+        break;
+      case 2:
+        image = Resources.imgWallTop;
+        break;
+      case 3:
+        image = Resources.imgWallRight;
+        break;
+      case 4:
+        image = Resources.imgWallBottom;
+        break;
+      case 5:
+        image = Resources.imgWallEdge1;
+        break;
+      case 6:
+        image = Resources.imgWallEdge2;
+        break;
+      case 7:
+        image = Resources.imgWallEdge3;
+        break;
+      case 8:
+        image = Resources.imgWallEdge4;
+        break;
+    }
+  }
+
+  bool canMoveTo(Tile tile) {
+    return false;
+  }
+
+  void drawOnTop() {
+
+  }
+
+}
+
 class TileToilet extends Tile {
 
   TileToilet(int positionX, int positionY) : super(positionX, positionY) {
     group = new TileGroup()..add(this);
     image = Resources.imgToilet;
+  }
+
+  bool canMoveTo(Tile tile) {
+    return false;
+  }
+
+  void drawOnTop() {
+
+  }
+
+}
+
+class TileSocket extends Tile {
+
+  TileSocket(int positionX, int positionY) : super(positionX, positionY) {
+    group = new TileGroup()..add(this);
+    image = Resources.imgSocket;
+  }
+
+  bool canMoveTo(Tile tile) {
+    return false;
+  }
+
+  void drawOnTop() {
+
+  }
+
+}
+
+class TilePhone extends Tile {
+
+  TilePhone(int positionX, int positionY) : super(positionX, positionY) {
+    group = new TileGroup()..add(this);
+    image = Resources.imgPhone;
   }
 
   bool canMoveTo(Tile tile) {

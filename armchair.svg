@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="armchair.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="-125.65499"
+     inkscape:cy="-24.775789"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3773" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#d05151;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3794"
+       width="63.659794"
+       height="58.758297"
+       x="12.5"
+       y="972.97418"
+       rx="5"
+       ry="5" />
+    <path
+       style="fill:#aa0000;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 6.9072165,954.8696 C 4.4319231,955.11946 2.5,957.223 2.5,959.76612 l 0,16.64819 c 0,2.71267 2.1840206,4.89652 4.8969072,4.89652 l 63.6597938,0 0,42.11017 -63.6597938,0 C 4.6840206,1023.421 2.5,1025.6048 2.5,1028.3175 l 0,16.6482 c 0,2.7126 2.1840206,4.8965 4.8969072,4.8965 l 68.5567008,0 16.649484,0 c 2.712887,0 4.896908,-2.1839 4.896908,-4.8965 l 0,-16.6482 0,-51.90319 0,-16.64819 c 0,-2.71267 -2.184021,-4.89652 -4.896908,-4.89652 l -85.2061848,0 c -0.1695554,0 -0.3246711,-0.0167 -0.4896907,0 z"
+       id="rect2985"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
