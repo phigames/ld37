@@ -13,8 +13,8 @@
    height="297mm"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="Neues Dokument 1">
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="chair.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -25,15 +25,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="-19.267301"
-     inkscape:cy="71.495981"
+     inkscape:cx="64.900919"
+     inkscape:cy="47.806337"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
+     inkscape:window-width="1280"
+     inkscape:window-height="657"
      inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-y="1192"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -43,7 +43,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -52,17 +52,15 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#a05a2c;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#784421;fill-opacity:1;stroke:#000000;stroke-width:4.99999952;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2985"
-       width="70"
-       height="80"
-       x="4"
-       y="962.36218"
-       rx="5"
-       ry="5" />
+       width="72.255226"
+       height="82.597389"
+       x="2.4999998"
+       y="959.76477" />
     <path
-       style="fill:#784421;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 79,962.36218 c 4.13604,28.21752 3.47081,54.67252 0,80.00002 l 14,0 c 4.10059,-26.4284 3.9932,-53.08902 0,-80.00002 z"
+       style="fill:#542f17;fill-opacity:1;stroke:#000000;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 79.916312,959.76474 c 4.269293,29.13367 3.582631,56.44756 0,82.59746 l 14.451045,0 c 4.232703,-27.2865 4.121851,-54.81273 0,-82.59746 z"
        id="path2987"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
