@@ -12,7 +12,7 @@ abstract class Tile {
 
   Tile(this.positionX, this.positionY, [this.group]);
 
-  bool canMoveTo(Tile tile);
+  bool canMoveTo(int positionX, int positionY);
 
   void move(int moveX, moveY) {
     group.move(moveX, moveY);
@@ -50,7 +50,7 @@ class TileGroup {
         moveable = false;
       } else {
         Tile targetTile = room.tiles[targetX][targetY];
-        if (!tiles.contains(targetTile) && !tiles[i].canMoveTo(targetTile)) {
+        if (!tiles.contains(targetTile) && !tiles[i].canMoveTo(targetX, targetY)) {
           moveable = false;
         }
       }
@@ -76,8 +76,8 @@ class TileArmchair extends Tile {
     image = Resources.imgArmchair;
   }
 
-  bool canMoveTo(Tile tile) {
-    return tile == null;
+  bool canMoveTo(int positionX, int positionY) {
+    return room.tiles[positionX][positionY] == null;
   }
 
   void drawOnTop() {
@@ -93,8 +93,8 @@ class TileChair extends Tile {
     image = Resources.imgChair;
   }
 
-  bool canMoveTo(Tile tile) {
-    return tile == null;
+  bool canMoveTo(int positionX, int positionY) {
+    return room.tiles[positionX][positionY] == null;
   }
 
   void drawOnTop() {
@@ -110,8 +110,8 @@ class TileBookshelve extends Tile {
     image = Resources.imgBookshelve;
   }
 
-  bool canMoveTo(Tile tile) {
-    return tile == null;
+  bool canMoveTo(int positionX, int positionY) {
+    return room.tiles[positionX][positionY] == null;
   }
 
   void drawOnTop() {
@@ -131,8 +131,8 @@ class TileBed extends Tile {
     }
   }
 
-  bool canMoveTo(Tile tile) {
-    return tile == null;
+  bool canMoveTo(int positionX, int positionY) {
+    return room.tiles[positionX][positionY] == null;
   }
 
   void drawOnTop() {
@@ -142,8 +142,11 @@ class TileBed extends Tile {
 }
 
 class TileDesk extends Tile {
+  int part;
+  int dishMode = 0;
+  bool homeworkDone;
 
-  TileDesk(int positionX, int positionY, TileGroup group, int part) : super(positionX, positionY, group) {
+  TileDesk(int positionX, int positionY, TileGroup group, this.part) : super(positionX, positionY, group) {
     group.add(this);
     if (part == 1) {
       image = Resources.imgDeskLeft;
@@ -152,12 +155,22 @@ class TileDesk extends Tile {
     }
   }
 
-  bool canMoveTo(Tile tile) {
-    return tile == null;
+  bool canMoveTo(int positionX, int positionY) {
+    Tile targetTile = room.tiles[positionX][positionY];
+    if (dishMode != 0 && part == 1 && targetTile == null) {
+      dishMode = 0;
+      room.tiles[targetTile.positionX][targetTile.positionY] = new TileDish(targetTile.positionX, targetTile.positionY);
+      return false;
+    }
+    return targetTile == null;
   }
 
   void drawOnTop() {
-
+    if (dishMode == 1) {
+      bufferContext.drawImage(Resources.imgDishBefore, positionX * Tile.WIDTH, positionY * Tile.HEIGHT);
+    } else if (dishMode == 2) {
+      bufferContext.drawImage(Resources.imgDishAfter, positionX * Tile.WIDTH, positionY * Tile.HEIGHT);
+    }
   }
 
 }
@@ -173,8 +186,8 @@ class TileCupboard extends Tile {
     }
   }
 
-  bool canMoveTo(Tile tile) {
-    return tile == null;
+  bool canMoveTo(int positionX, int positionY) {
+    return room.tiles[positionX][positionY] == null;
   }
 
   void drawOnTop() {
@@ -190,8 +203,14 @@ class TileDish extends Tile {
     image = Resources.imgDishBefore;
   }
 
-  bool canMoveTo(Tile tile) {
-    return tile == null;
+  bool canMoveTo(int positionX, int positionY) {
+    Tile targetTile = room.tiles[positionX][positionY];
+    if (targetTile is TileDesk && targetTile.part == 1) {
+      room.tiles[positionX][positionY] = null;
+      targetTile.dishMode = 1;
+      return false;
+    }
+    return targetTile == null;
   }
 
   void drawOnTop() {
@@ -207,8 +226,8 @@ class TilePlant extends Tile {
     image = Resources.imgPlant;
   }
 
-  bool canMoveTo(Tile tile) {
-    return tile == null;
+  bool canMoveTo(int positionX, int positionY) {
+    return room.tiles[positionX][positionY] == null;
   }
 
   void drawOnTop() {
@@ -224,8 +243,9 @@ class TileDoor extends Tile {
     image = Resources.imgDoor;
   }
 
-  bool canMoveTo(Tile tile) {
-    return false;
+
+  bool canMoveTo(int positionX, int positionY) {
+    return room.tiles[positionX][positionY] == null;
   }
 
   void drawOnTop() {
@@ -266,8 +286,8 @@ class TileWall extends Tile {
     }
   }
 
-  bool canMoveTo(Tile tile) {
-    return false;
+  bool canMoveTo(int positionX, int positionY) {
+    return room.tiles[positionX][positionY] == null;
   }
 
   void drawOnTop() {
@@ -283,8 +303,8 @@ class TileToilet extends Tile {
     image = Resources.imgToilet;
   }
 
-  bool canMoveTo(Tile tile) {
-    return false;
+  bool canMoveTo(int positionX, int positionY) {
+    return room.tiles[positionX][positionY] == null;
   }
 
   void drawOnTop() {
@@ -300,8 +320,8 @@ class TileSocket extends Tile {
     image = Resources.imgSocket;
   }
 
-  bool canMoveTo(Tile tile) {
-    return false;
+  bool canMoveTo(int positionX, int positionY) {
+    return room.tiles[positionX][positionY] == null;
   }
 
   void drawOnTop() {
@@ -317,8 +337,8 @@ class TilePhone extends Tile {
     image = Resources.imgPhone;
   }
 
-  bool canMoveTo(Tile tile) {
-    return false;
+  bool canMoveTo(int positionX, int positionY) {
+    return room.tiles[positionX][positionY] == null;
   }
 
   void drawOnTop() {
