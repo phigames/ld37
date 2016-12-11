@@ -81,7 +81,7 @@ class TaskHandler {
           (tempTile as TileBed).weedMode = 2;
         }
       } else if (task == 3) {
-        if ()
+
       } else if (task == 4) {
 
       } else if (task == 5) {
@@ -122,7 +122,7 @@ class TaskHandler {
         // smoke animation
         bufferContext.beginPath();
         bufferContext.arc(tempTile.positionX * Tile.WIDTH, tempTile.positionY * Tile.HEIGHT, 20, 0, 2 * PI);
-        bufferContext.globalAlpha = (1000 - waitTime).abs() / 1000;
+        bufferContext.globalAlpha = ((1000 - waitTime).abs() - 1000).abs() / 1000;
         bufferContext.fillStyle = '#BBBBBB';
         bufferContext.fill();
         bufferContext.globalAlpha = 1;
