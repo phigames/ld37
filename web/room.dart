@@ -94,7 +94,8 @@ class Room {
   void draw() {
     for (int i = 0; i < WIDTH; i++) {
       for (int j = 0; j < HEIGHT; j++) {
-        bufferContext.drawImage(Resources.imgFloor, i * Tile.WIDTH, j * Tile.HEIGHT);
+        bufferContext.drawImageScaledFromSource(Resources.spritesheet, 0 * Tile.WIDTH, 0 * Tile.HEIGHT, Tile.WIDTH, Tile.HEIGHT,
+                                                                       i * Tile.WIDTH, j * Tile.HEIGHT, Tile.WIDTH, Tile.HEIGHT);
         if (tiles[i][j] != null) {
           tiles[i][j].draw();
         }

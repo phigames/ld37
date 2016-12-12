@@ -190,6 +190,8 @@ class TaskHandler {
       if (task == 0) {
         if (waitTime <= 700) {
           (tempTile as TileDesk).homeworkDone = true;
+          (tempTile as TileDesk).spriteX = 5;
+          (tempTile as TileDesk).spriteY = 0;
         }
       } else if (task == 1) {
         if (waitTime <= 1000) {
@@ -236,7 +238,8 @@ class TaskHandler {
 
   void draw() {
     if (taskState == 0 && messageTexts[task] != null) {
-      bufferContext.drawImage(Resources.imgMessage, 225, 75);
+      bufferContext.drawImageScaledFromSource(Resources.spritesheet, 6 * Tile.WIDTH, 0 * Tile.HEIGHT, 2.5 * Tile.WIDTH, 3.5 * Tile.HEIGHT,
+                                                                     225, 75, 2.5 * Tile.WIDTH, 3.5 * Tile.HEIGHT);
       if (Input.mouseX > OK_X && Input.mouseX < OK_X + OK_WIDTH &&
           Input.mouseY > OK_Y && Input.mouseY < OK_Y + OK_HEIGHT) {
         bufferContext.globalAlpha = 0.2;

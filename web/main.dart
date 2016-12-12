@@ -10,6 +10,7 @@ part 'input.dart';
 part 'resources.dart';
 
 DivElement gameElement;
+HeadingElement loadingElement;
 CanvasElement canvas, buffer;
 CanvasRenderingContext2D canvasContext, bufferContext;
 num timeElapsed;
@@ -17,6 +18,7 @@ Room room;
 
 void main() {
   gameElement = querySelector('#game');
+  loadingElement = querySelector('#loading');
   canvas = querySelector('#canvas');
   buffer = new CanvasElement(width: canvas.width, height: canvas.height);
   canvasContext = canvas.context2D;
@@ -24,8 +26,15 @@ void main() {
   canvas.onMouseDown.listen(Input.onMouseDown);
   canvas.onMouseUp.listen(Input.onMouseUp);
   canvas.onMouseMove.listen(Input.onMouseMove);
-  timeElapsed = -1;
+  canvas.style.display = 'none';
   Resources.load();
+  timeElapsed = -1;
+  requestFrame();
+}
+
+void startGame() {
+  loadingElement.style.display = 'none';
+  canvas.style.display = 'block';
   room = new Room();
   requestFrame();
 }
@@ -43,7 +52,10 @@ void draw() {
 
 frame(num time) {
   if (timeElapsed == -1) {
-    timeElapsed = time;
+    if (Resources.doneLoading) {
+      timeElapsed = time;
+      startGame();
+    }
   } else {
     num deltaTime = time - timeElapsed;
     update(deltaTime);

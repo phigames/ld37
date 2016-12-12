@@ -7,8 +7,7 @@ abstract class Tile {
 
   int positionX, positionY;
   TileGroup group;
-  //num spriteX, spriteY;
-  ImageElement image;
+  num spriteX, spriteY;
 
   Tile(this.positionX, this.positionY, [this.group]);
 
@@ -19,9 +18,8 @@ abstract class Tile {
   }
 
   void draw() {
-    //bufferContext.drawImageScaledFromSource(Resources.spritesheet, spriteX * Tile.WIDTH, spriteY * Tile.HEIGHT, Tile.WIDTH, Tile.HEIGHT,
-    //                                                               positionX * Tile.WIDTH, positionY * Tile.HEIGHT, Tile.WIDTH, Tile.HEIGHT);
-    bufferContext.drawImage(image, positionX * Tile.WIDTH, positionY * Tile.HEIGHT);
+    bufferContext.drawImageScaledFromSource(Resources.spritesheet, spriteX * Tile.WIDTH, spriteY * Tile.HEIGHT, Tile.WIDTH, Tile.HEIGHT,
+                                                                   positionX * Tile.WIDTH, positionY * Tile.HEIGHT, Tile.WIDTH, Tile.HEIGHT);
     drawOnTop();
   }
 
@@ -73,7 +71,8 @@ class TileArmchair extends Tile {
 
   TileArmchair(int positionX, int positionY) : super(positionX, positionY) {
     group = new TileGroup()..add(this);
-    image = Resources.imgArmchair;
+    spriteX = 4;
+    spriteY = 2;
   }
 
   bool canMoveTo(int positionX, int positionY) {
@@ -90,7 +89,8 @@ class TileChair extends Tile {
 
   TileChair(int positionX, int positionY) : super(positionX, positionY) {
     group = new TileGroup()..add(this);
-    image = Resources.imgChair;
+    spriteX = 2;
+    spriteY = 0;
   }
 
   bool canMoveTo(int positionX, int positionY) {
@@ -107,7 +107,8 @@ class TileBookshelve extends Tile {
 
   TileBookshelve(int positionX, int positionY) : super(positionX, positionY) {
     group = new TileGroup()..add(this);
-    image = Resources.imgBookshelve;
+    spriteX = 1;
+    spriteY = 0;
   }
 
   bool canMoveTo(int positionX, int positionY) {
@@ -128,9 +129,11 @@ class TileBed extends Tile {
   TileBed(int positionX, int positionY, TileGroup group, this.part) : super(positionX, positionY, group) {
     group.add(this);
     if (part == 1) {
-      image = Resources.imgBedHead;
+      spriteX = 1;
+      spriteY = 1;
     } else if (part == 2) {
-      image = Resources.imgBedFeet;
+      spriteX = 1;
+      spriteY = 2;
     }
   }
 
@@ -147,9 +150,11 @@ class TileBed extends Tile {
 
   void drawOnTop() {
     if (weedMode == 1) {
-      bufferContext.drawImage(Resources.imgWeedBefore, positionX * Tile.WIDTH, positionY * Tile.HEIGHT);
+      bufferContext.drawImageScaledFromSource(Resources.spritesheet, 3 * Tile.WIDTH, 1 * Tile.HEIGHT, Tile.WIDTH, Tile.HEIGHT,
+                                                                     positionX * Tile.WIDTH, positionY * Tile.HEIGHT, Tile.WIDTH, Tile.HEIGHT);
     } else if (weedMode == 2) {
-      bufferContext.drawImage(Resources.imgWeedAfter, positionX * Tile.WIDTH, positionY * Tile.HEIGHT);
+      bufferContext.drawImageScaledFromSource(Resources.spritesheet, 3 * Tile.WIDTH, 2 * Tile.HEIGHT, Tile.WIDTH, Tile.HEIGHT,
+                                                                     positionX * Tile.WIDTH, positionY * Tile.HEIGHT, Tile.WIDTH, Tile.HEIGHT);
     }
   }
 
@@ -164,9 +169,11 @@ class TileDesk extends Tile {
   TileDesk(int positionX, int positionY, TileGroup group, this.part) : super(positionX, positionY, group) {
     group.add(this);
     if (part == 1) {
-      image = Resources.imgDeskLeft;
+      spriteX = 3;
+      spriteY = 0;
     } else if (part == 2) {
-      image = Resources.imgDeskRightBefore;
+      spriteX = 4;
+      spriteY = 0;
     }
     homeworkDone = false;
   }
@@ -183,13 +190,12 @@ class TileDesk extends Tile {
   }
 
   void drawOnTop() {
-    if (part == 2 && homeworkDone) {
-      bufferContext.drawImage(Resources.imgDeskRightAfter, positionX * Tile.WIDTH, positionY * Tile.HEIGHT);
-    }
     if (dishMode == 1) {
-      bufferContext.drawImage(Resources.imgDishBefore, positionX * Tile.WIDTH, positionY * Tile.HEIGHT);
+      bufferContext.drawImageScaledFromSource(Resources.spritesheet, 2 * Tile.WIDTH, 1 * Tile.HEIGHT, Tile.WIDTH, Tile.HEIGHT,
+                                                                     positionX * Tile.WIDTH, positionY * Tile.HEIGHT, Tile.WIDTH, Tile.HEIGHT);
     } else if (dishMode == 2) {
-      bufferContext.drawImage(Resources.imgDishAfter, positionX * Tile.WIDTH, positionY * Tile.HEIGHT);
+      bufferContext.drawImageScaledFromSource(Resources.spritesheet, 2 * Tile.WIDTH, 2 * Tile.HEIGHT, Tile.WIDTH, Tile.HEIGHT,
+                                                                     positionX * Tile.WIDTH, positionY * Tile.HEIGHT, Tile.WIDTH, Tile.HEIGHT);
     }
   }
 
@@ -200,9 +206,11 @@ class TileCupboard extends Tile {
   TileCupboard(int positionX, int positionY, TileGroup group, int part) : super(positionX, positionY, group) {
     group.add(this);
     if (part == 1) {
-      image = Resources.imgCupboardLeft;
+      spriteX = 0;
+      spriteY = 1;
     } else if (part == 2) {
-      image = Resources.imgCupboardRight;
+      spriteX = 0;
+      spriteY = 2;
     }
   }
 
@@ -223,11 +231,13 @@ class TileDish extends Tile {
   TileDish(int positionX, int positionY, bool used) : super(positionX, positionY) {
     group = new TileGroup()..add(this);
     if (!used) {
+      spriteX = 2;
+      spriteY = 1;
       mode = 1;
-      image = Resources.imgDishBefore;
     } else {
+      spriteX = 2;
+      spriteY = 2;
       mode = 2;
-      image = Resources.imgDishAfter;
     }
   }
 
@@ -255,11 +265,13 @@ class TileWeed extends Tile {
   TileWeed(int positionX, int positionY, bool used) : super(positionX, positionY) {
     group = new TileGroup()..add(this);
     if (!used) {
+      spriteX = 3;
+      spriteY = 1;
       mode = 1;
-      image = Resources.imgWeedBefore;
     } else {
+      spriteX = 3;
+      spriteY = 2;
       mode = 2;
-      image = Resources.imgWeedAfter;
     }
   }
 
@@ -284,7 +296,8 @@ class TilePlant extends Tile {
 
   TilePlant(int positionX, int positionY) : super(positionX, positionY) {
     group = new TileGroup()..add(this);
-    image = Resources.imgPlant;
+    spriteX = 4;
+    spriteY = 1;
   }
 
   bool canMoveTo(int targetX, int targetY) {
@@ -308,7 +321,8 @@ class TileTV extends Tile {
 
   TileTV(int positionX, int positionY) : super(positionX, positionY) {
     group = new TileGroup()..add(this);
-    image = Resources.imgTV;
+    spriteX = 5;
+    spriteY = 1;
   }
 
   bool canMoveTo(int targetX, int targetY) {
@@ -326,7 +340,8 @@ class TileDoor extends Tile {
 
   TileDoor(int positionX, int positionY) : super(positionX, positionY) {
     group = new TileGroup()..add(this);
-    image = Resources.imgDoor;
+    spriteX = 0;
+    spriteY = 4;
   }
 
 
@@ -346,34 +361,44 @@ class TileWall extends Tile {
     group = new TileGroup()..add(this);
     switch (type) {
       case 1:
-        image = Resources.imgWallLeft;
+        spriteX = 0;
+        spriteY = 3;
         break;
       case 2:
-        image = Resources.imgWallTop;
+        spriteX = 1;
+        spriteY = 3;
         break;
       case 3:
-        image = Resources.imgWallRight;
+        spriteX = 2;
+        spriteY = 3;
         break;
       case 4:
-        image = Resources.imgWallBottom;
+        spriteX = 3;
+        spriteY = 3;
         break;
       case 5:
-        image = Resources.imgWallEdge1;
+        spriteX = 4;
+        spriteY = 3;
         break;
       case 6:
-        image = Resources.imgWallEdge2;
+        spriteX = 5;
+        spriteY = 3;
         break;
       case 7:
-        image = Resources.imgWallEdge3;
+        spriteX = 5;
+        spriteY = 4;
         break;
       case 8:
-        image = Resources.imgWallEdge4;
+        spriteX = 4;
+        spriteY = 4;
         break;
       case 9:
-        image = Resources.imgWallToToiletLeft;
+        spriteX = 6;
+        spriteY = 4;
         break;
       case 10:
-        image = Resources.imgWallToToiletRight;
+        spriteX = 7;
+        spriteY = 4;
         break;
     }
   }
@@ -393,7 +418,8 @@ class TileToilet extends Tile {
 
   TileToilet(int positionX, int positionY) : super(positionX, positionY) {
     group = new TileGroup()..add(this);
-    image = Resources.imgToilet;
+    spriteX = 3;
+    spriteY = 4;
   }
 
   bool canMoveTo(int targetX, int targetY) {
@@ -409,7 +435,8 @@ class TileToilet extends Tile {
 
   void drawOnTop() {
     if (plantMode == 1) {
-      bufferContext.drawImage(Resources.imgPlant, positionX * Tile.WIDTH, positionY * Tile.HEIGHT);
+      bufferContext.drawImageScaledFromSource(Resources.spritesheet, 4 * Tile.WIDTH, 1 * Tile.HEIGHT, Tile.WIDTH, Tile.HEIGHT,
+                                                                     positionX * Tile.WIDTH, positionY * Tile.HEIGHT, Tile.WIDTH, Tile.HEIGHT);
     }
   }
 }
@@ -418,7 +445,8 @@ class TileSocket extends Tile {
 
   TileSocket(int positionX, int positionY) : super(positionX, positionY) {
     group = new TileGroup()..add(this);
-    image = Resources.imgSocket;
+    spriteX = 2;
+    spriteY = 4;
   }
 
   bool canMoveTo(int positionX, int positionY) {
@@ -435,7 +463,8 @@ class TilePhone extends Tile {
 
   TilePhone(int positionX, int positionY) : super(positionX, positionY) {
     group = new TileGroup()..add(this);
-    image = Resources.imgPhone;
+    spriteX = 1;
+    spriteY = 4;
   }
 
   bool canMoveTo(int positionX, int positionY) {
