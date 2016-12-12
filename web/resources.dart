@@ -36,6 +36,8 @@ class Resources {
   static ImageElement imgPhone;
   static ImageElement imgMessage;
   static Map<String, AudioElement> sounds;
+  static int imagesLoaded = 0, soundsLoaded = 0;
+  static bool doneLoading = false;
 
   static void load() {
     //spritesheet = new ImageElement(src: 'res/spritesheet.png');
@@ -72,17 +74,39 @@ class Resources {
     imgPhone = new ImageElement(src: 'res/phone.png');
     imgMessage = new ImageElement(src: 'res/message.png');
     sounds = new Map<String, AudioElement>();
-    sounds['scribble'] = new AudioElement('res/scribble.wav');
-    sounds['cough'] = new AudioElement('res/cough.wav');
-    sounds['doorbell'] = new AudioElement('res/doorbell.wav');
-    sounds['water'] = new AudioElement('res/water.wav');
-    sounds['crisp'] = new AudioElement('res/crisp.wav');
-    sounds['tv'] = new AudioElement('res/tv.wav');
-    sounds['ringtone'] = new AudioElement('res/ringtone.wav');
-    sounds['ticking'] = new AudioElement('res/ticking.wav');
-    sounds['momPhone'] = new AudioElement('res/momPhone.wav');
-    sounds['momHappy'] = new AudioElement('res/momHappy.wav');
-    sounds['momAngry'] = new AudioElement('res/momAngry.wav');
+    loadSound('scribble');
+    loadSound('cough');
+    loadSound('doorbell');
+    loadSound('water');
+    loadSound('crisp');
+    loadSound('tv');
+    loadSound('ringtone');
+    loadSound('ticking');
+    loadSound('momPhone');
+    loadSound('momHappy');
+    loadSound('momAngry');
+  }
+
+  static void loadSpritesheet() {
+    //spritesheet = new ImageElement(src: 'res/spritesheet.png')..onLoad.first.then((e) => onImageLoad());
+  }
+
+  static void loadSound(String key) {
+    sounds[key] = new AudioElement('res/${key}.wav')..onLoadedData.first.then((e) => onSoundLoad());
+  }
+
+  static void onImageLoad() {
+    imagesLoaded++;
+    if (imagesLoaded == 1 && soundsLoaded == sounds.length) {
+      doneLoading = true;
+    }
+  }
+
+  static void onSoundLoad() {
+    soundsLoaded++;
+    if (imagesLoaded == 1 && soundsLoaded == sounds.length) {
+      doneLoading = true;
+    }
   }
 
 }

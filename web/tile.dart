@@ -218,11 +218,15 @@ class TileCupboard extends Tile {
 
 class TileDish extends Tile {
 
+  int mode;
+
   TileDish(int positionX, int positionY, bool used) : super(positionX, positionY) {
     group = new TileGroup()..add(this);
     if (!used) {
+      mode = 1;
       image = Resources.imgDishBefore;
     } else {
+      mode = 2;
       image = Resources.imgDishAfter;
     }
   }
@@ -231,11 +235,7 @@ class TileDish extends Tile {
     Tile targetTile = room.tiles[targetX][targetY];
     if (targetTile is TileDesk && targetTile.part == 1) {
       room.tiles[positionX][positionY] = null;
-      if (image == Resources.imgDishBefore) {
-        targetTile.dishMode = 1;
-      } else {
-        targetTile.dishMode = 2;
-      }
+      targetTile.dishMode = mode;
       room.selectedTile = null;
       return false;
     }
@@ -250,11 +250,15 @@ class TileDish extends Tile {
 
 class TileWeed extends Tile {
 
+  int mode;
+
   TileWeed(int positionX, int positionY, bool used) : super(positionX, positionY) {
     group = new TileGroup()..add(this);
     if (!used) {
+      mode = 1;
       image = Resources.imgWeedBefore;
     } else {
+      mode = 2;
       image = Resources.imgWeedAfter;
     }
   }
@@ -263,11 +267,7 @@ class TileWeed extends Tile {
     Tile targetTile = room.tiles[targetX][targetY];
     if (targetTile is TileBed) {
       room.tiles[positionX][positionY] = null;
-      if (image == Resources.imgWeedBefore) {
-        targetTile.weedMode = 1;
-      } else {
-        targetTile.weedMode = 2;
-      }
+      targetTile.weedMode = mode;
       room.selectedTile = null;
       return false;
     }
