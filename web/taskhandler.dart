@@ -223,6 +223,9 @@ class TaskHandler {
           Resources.sounds['ringtone'].loop = true;
           Resources.sounds['ringtone'].play();
         }
+      } else if (task == 9) {
+        Resources.sounds['doorbell'].currentTime = 0;
+        Resources.sounds['doorbell'].play();
       }
       if (waitTime <= 0) {
         task++;
